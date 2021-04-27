@@ -1,0 +1,28 @@
+html, body {
+    width: 100%;
+    
+}
+
+.page-title {
+    text-align: center;
+}
+
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   
+}
+
+.w3-container {
+    background-color: #fff;
+}
