@@ -62,7 +62,6 @@ function matched() {
 }
 
 
-
 function unmatched(x,y) {
     setTimeout(() => {
         x.style.transform = "rotateY(0deg)";
@@ -95,3 +94,14 @@ function shuffle() {
         cards.style.order = randomPosition;
     });
 }
+
+
+var mp3 = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  mp3.play(); 
+} 
+
+function pauseAudio() { 
+  mp3.pause(); 
+} 
