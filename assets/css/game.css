@@ -44,39 +44,50 @@ html {
     body {
         margin: 0;
         padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        box-sizing: border-box;
     }
 
-    #game-container {
-        height: 550px;
-        margin-left: 25px;
+    #game-container {    
+       height: 550px;
+       margin-left: 25px;
+       
     }
 
     .memory-game {
-        height: 160px;
-        width: 120px;
-        background: transparent;
-        perspective: 1200px;
-        float: left;
-        margin-left: 40px;
-        margin-top: 20px;
+    height: 145px;
+    width: 130px;
+    background:transparent; 
+    perspective:1200px; 
+    float:left; 
+    margin-left:40px;
+    margin-top:20px;
+    
     }
 
     .memory-card {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        transform-style: preserve-3d;
-        transition: all 0.75s ease;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.75s ease;
+    border: 0.5rem outset pink;
     }
 
     .front, .back {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: linear-gradient(45 deg, rgba(2,0,36,1) 0%, rgba(40,40,121,1) 35%, rgba(0,212,255,1) 100%);
-        border-radius: 10px;
-        backface-visibility: hidden;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position:absolute; 
+    height:100%; 
+    width:100%; 
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(40,40,121,1) 35%, rgba(0,212,255,1) 100%);
+    backface-visibility:hidden; 
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .front {
+        background: url("../images/lemur7.jpg") no-repeat;
+        background-size: cover;
+        
     }
 
     .back {
@@ -97,5 +108,5 @@ html {
         width: 100%;
         min-height: 100%;
     }
-
+    
     
