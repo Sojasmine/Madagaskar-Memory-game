@@ -2,28 +2,29 @@ let cards = document.querySelectorAll(".memory-card");
 let firstClick = false;
 let counter = 0;
 let cardPair = [];
-let card = document.querySelectorAll(".memory-game")
+let sec = 0;
+let flip = 0;
+let card = document.querySelectorAll('.memory-game');
 
 cards.forEach((card) => {
     card.state = "unclicked";
 });
 
-
 shuffle();
 
 for (let  i = 0; i < cards.length; i++) {
     cards[i].addEventListener("click", () => {
-        //if first click is false
+        
         if (!firstClick) {
-        time();//call time function
-        firstClick = true; //time function called only ones
+        time();
+        firstClick = true; 
         }
-        if (cards[i].state == "unclicked") { //if the state is unclicked rotate the clicked card
+        if (cards[i].state == "unclicked") { 
             cards[i].style.transform = "rotateY(180deg)";
             cards[i].state = "clicked";
-            counter++; //increment counter value
+            counter++; 
             cardPair.push(cards[i]);
-            check();//check same src property
+            check();
         }
 
         else if (cards[i].state == "clicked") {
@@ -36,7 +37,7 @@ for (let  i = 0; i < cards.length; i++) {
 }
 
 function check() {
-    if (counter == 2) { //value of counter must be two
+    if (counter == 2) {
         if (cardPair[0].querySelector("img").src == cardPair[1].querySelector("img").src) {
             matched();
         } else {
@@ -48,46 +49,49 @@ function check() {
 function matched() {
     cardPair[0].state = "blocked";
     cardPair[1].state = "blocked";
-    counter = 0; //counter update
+    counter = 0;
     cardPair = [];
-    let score = document.querySelector("#score").innerHTML; //get value of prev flips 
-    score++; //icrement 
-    document.querySelector("#score").innerHTML = score;//update
+    let score = document.querySelector("#score").innerHTML;
+    score++;    
+    document.querySelector("#score").innerHTML = score;
 
+    if(score ===10) { 
+        score = 10;
+        
+    }
 }
 
-    function unmatched(x,y) {
-        setTimeout(() => {
-            x.style.transform = "rotateY(0deg)";
-            y.style.transform = "rotateY(0deg)";
-        }, 750);
-        cardPair[0].state = "unclicked"; //update to uncliked - hide image again
-        cardPair[1].state = "unclicked"; //update to uncliked - hide image again
-        counter = 0;
-        cardPair = [];
+
+
+function unmatched(x,y) {
+    setTimeout(() => {
+        x.style.transform = "rotateY(0deg)";
+        y.style.transform = "rotateY(0deg)";
+    }, 750);
+    cardPair[0].state = "unclicked"; 
+    cardPair[1].state = "unclicked"; 
+    counter = 0;
+    cardPair = [];
+}
+
+function time() {
+    let secs = 0;
+    let ID = setInterval(() => {
+        secs++;
+        
+        document.querySelector("#time").innerHTML = secs + "s";
+        sec = `${secs}`;
+        
+        if(score===10){
+            clearInterval(ID);
     }
+    }, 1000);
+}
+ 
 
-
-
-    function time() {
-        //initalized a variable
-        let secs = 0;
-        //update the time every one second
-        let ID = setInterval(() => {
-            secs++;
-            //display time
-            document.querySelector("#timer").innerHTML = secs + "s";
-            sec = `${secs}`;
-            //stop timer when all the pairs are found
-            if(flip===10){
-                clearInterval(ID);
-        }
-        }, 1000);
-    }
-
-    function shuffle() {
-        card.forEach(cards => {
-            let randomPosition = Math.floor(Math.random() * 20);
-            cards.style.order = randomPosition;
-        });
-    }
+function shuffle() {
+    card.forEach(cards => {
+        let randomPosition = Math.floor(Math.random() * 30);
+        cards.style.order = randomPosition;
+    });
+}
