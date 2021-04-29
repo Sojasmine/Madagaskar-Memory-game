@@ -42,27 +42,27 @@ html {
     body {
         margin: 0;
         padding: 0;
-        
         font-family: 'Times New Roman', Times, serif;
         
     }
 
     #game-container {    
-       width: 900px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
       
-       
-    }
+   }
 
-    .memory-game {
+     .memory-game {
     height: 145px;
-    width: 120px;
+    width: 195px;
     background:transparent; 
     perspective: 1000px; 
     float: left;
     margin-left: 40px;
     margin-top:20px;
-    
-    }
+  }
 
     .memory-card {
     position: absolute;
@@ -72,11 +72,13 @@ html {
     transition: all 0.75s ease;
     border: 0.5rem outset pink;
     }
-
-    .front, .back {
+    
+    
+   .front, .back {
     position:absolute; 
     height:100%; 
     width:100%; 
+    
     background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(40,40,121,1) 35%, rgba(0,212,255,1) 100%);
     backface-visibility:hidden; 
     border-radius:10px;
@@ -94,12 +96,12 @@ html {
     }
 
     #board {
-        height: 85px;
-        width: 450px;
-        border: 4px solid black;
+        height: 75px;
+        width: 375px;
+        border: 2px solid black;
         margin: auto;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 6px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
