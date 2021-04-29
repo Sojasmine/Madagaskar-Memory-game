@@ -1,13 +1,16 @@
 body {
     width: 100%;
     font-family: Horn, serif;
+    background: url('../images/jungle.jpg') no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
        
 }
 
 .page-title {
     text-align: center;
     font-family: Horn, serif;
-    color: orangered;
+    color: royalblue;
     font-size: 50px;
 }
 
