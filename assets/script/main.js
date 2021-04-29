@@ -1,9 +1,11 @@
+/*jshint esversion: 6 */
+
 let cards = document.querySelectorAll(".memory-card");
 let firstClick = false;
 let counter = 0;
 let cardPair = [];
 let sec = 0;
-let flip = 0;
+let score = 0;
 let card = document.querySelectorAll('.memory-game');
 
 cards.forEach((card) => {
@@ -28,7 +30,7 @@ for (let  i = 0; i < cards.length; i++) {
         }
 
         else if (cards[i].state == "clicked") {
-            cards[i].style.transform = "rotate(0deg)";
+            cards[i].style.transform = "rotateY(0deg)";
             cards[i].state = "unclicked";
             counter--;
             cardPair = [];
@@ -37,7 +39,7 @@ for (let  i = 0; i < cards.length; i++) {
 }
 
 function check() {
-    if (counter == 2) {
+    if (cardPair.length == 2) {
         if (cardPair[0].querySelector("img").src == cardPair[1].querySelector("img").src) {
             matched();
         } else {
