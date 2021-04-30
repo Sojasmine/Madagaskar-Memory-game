@@ -138,6 +138,16 @@ ___
 ---
 
 ### Technologies used
+   * HTML
+   * CSS
+   * Javascript
+   * Bootstrap
+   * Github
+   * Gitpod
+   * GIT
+   * Font awesome
+   * JQuery
+   
 
 ___
 
@@ -176,15 +186,130 @@ ___
    ![Cards](assets/docs/Bild1.png)
 
    * Problem with responsiveness on the game page.
-   ![Mobile vue](assets/docs/Mobile.JPG)
+   ![Mobile](assets/docs/Mobile.JPG)
 
    * Warnings from [jshint](https://jshint.com/) about ES6.
    > Solved it by adding a **/*jshint esversion: 6 */** comment in the top of my javscript file. 
-   * 
-#### Code validation
-#### Performance testing
 
-( fill later not yet finished)
+   * HTML validating error.
+   ![error](assets/docs/html.png)
+
+   ![error](assets/docs/html1.png)
+
+#### Code validation
+
+   * I used [W3C](https://validator.w3.org/) to validate HTML code.
+   * I used [Jigsaw](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+   * I used [Jshint](https://jshint.com/) to validate Javscript.
+   * I used [Ami Responsive](http://ami.responsivedesign.is/) to controll responsiveness of the website. 
+
+#### Performance testing
+   
+   * I used [lighthouse](https://developer.chrome.com/) to generate report peformance
+
+   ![Peformance result](assets/docs/performance.png)
+
+   Final result: 
+
+
+   ( performance result here)(fill later not yet finished)
+
+   [Back to Table of contents](#table-of-contents)
+____
+
+## Deployment
+  * Log into GitHub. 
+1. Make sure you use VScode at your Gitpod account. 
+1. To deploy this page to GitHub Pages from your Code Institute [template](https://github.com/Code-Institute-Org/gitpod-full-template)
+1. Create a reposirtory. 
+1. From the menu items near the top of the page, select **Settings**.
+1. Scroll down to the **GitHub Pages** section.
+1. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+1. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+1. Make sure to click the save button. 
+1. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+### How to run this project locally
+
+  * To clone this project from GitHub:
+1. At the top of this repository, click the green button **Clone or download**.
+1. In the Clone with HTTPs section, copy the clone URL for the repository. 
+1. Open your favourite terminal (cmd, powershell, bash, git bash, etc.)
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type `git clone`, and then paste the URL you copied in Step 2.
+```console
+git clone https://github.com/Eventyret/vscode-bcdn.git
+```
+1. Press Enter. Your Your local clone will be created.
+
+  [Back to Table of contents](#table-of-contents)
+
+___
+
+### Credits
+   #### Images
+
+   * Free downloading of those image was taken from [wallpaperaccess](https://wallpaperaccess.com/) 
+
+       Link to the image: [Cartoon](https://wallpaperaccess.com/madagascar-cartoon) : 
+
+       - floodhest.jpg
+       - fosa.jpg
+       - giraf.jpg
+       - lion.jpg
+       - make.jpg
+       - pinguin.jpg
+
+   * Background image for the landing page was taken from [123rf](https://www.123rf.com/)
+
+       Link to the image: [jungle1](https://www.123rf.com/photo_90244905_horizontal-floral-seamless-pattern-made-with-colorful-leaves-and-flowers-of-tropical-plants-on-white.html?vti=ln5bbq0knfcckp3mzo-1-1)
+
+   * Animated background image was taken from [codepen](https://codepen.io/) . As a member of the site, I have a right to use images. 
+
+       Link to the image: [Animated background](https://codepen.io/carpenumidium/full/vNNzyG)
+
+   * Free downloading of modal background image was taken from [pixabay](https://pixabay.com/) . I added text content by using Paint 3D on my computer.
+
+      link to the image: [greenery-.jpg](https://pixabay.com/sv/illustrations/gr%C3%B6nska-l%C3%B6vverk-tropiska-exotiska-4407910/)
+   
+   * 
+   
+
+   #### Audio
+
+      * The background music from [Youtube]() converted to mp3.
+      * The victory music from [Youtobe]() converted to mp3. 
+   #### Font
+      * Font used for the page title was borrowed from [fontspace](https://www.fontspace.com/horn-font-f13906)
+   #### Cursor
+   #### Source of code
+      * Modal on the index.html was taken from [w3 schools](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_fade)
+
+      * Modified code for this project from codeTonight [yotube](https://www.youtube.com/watch?v=QrTCHHhoUQU)
+
+      * Javascript code for the audio was taken from [w3 schools](https://www.w3schools.com/) : 
+        
+        - [code]()
+      
+   #### Acknowledgements
+   #### License
+
+       * [License agreement](https://www.123rf.com/license.php#standard) for the background image on the landing page. 
+       - I signed up for 30 days free trial on this site. 
+
+       * [License agreement]() for some of the cards images.
+       - I signed up for 30 days free trial on this site.
+
+   
+
+
+### Author
+
+   Sojasmine Gjerstad: Student at Code intsitute.
+   [github page](https://github.com/Sojasmine/Madagaskar-Memory-game)
+   [Website](https://sojasmine.github.io/Madagaskar-Memory-game/)
+
+   Maj © 2021
 
 
  
