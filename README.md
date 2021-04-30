@@ -98,10 +98,13 @@ ___
    * By clicking on the text **How to play**, modal when clicked pops up and give the user a simple instruction on how the game is meant to play. The instruction is easy to read understand for every user. 
 
 #### Game page
-   * Is the second page in the website. It is where the user paly the game. In top of the page, a score panel with timer appear. 
-   * There are two ON and OFF button for the audio.
+   * Is the second page in the website. It is where the user play the game. In top of the page, a score panel with timer appear. 
+   * An mp3 music will be played in the background during the game if wishes. There are two ON and OFF button for the audio.
    * In the center of the page is the game container.
-   * A modal pops up when finishing the game with two buttons. (leave and a play again button, this is an option)
+   * When the user matches the pair of cards successfully, a small window with a congratulation page will show up with the player duration time speed. 
+
+     The user can try a new game by clicking the button __play again__ or __leave__ the game back to the landing page.
+    (leave and a play again button, this is an option) (In the bottom there is a small text for mail and a license info)
 
 #### Timer 
    * A timer measure the speedity of the palyer.
@@ -150,12 +153,6 @@ ___
 #### Performance testing
 
 ( fill later not yet finished)
-This website contains 2 pages. The main page for the game with animated background on the Html page. The game is centred on the main page.
-Instructions about how to play are available above the game section on the landing page. Modal when clicked pops up and give the user a simple instruction on how the game is meant to play. The instruction is easy to read understand for every user.
-The player can start the game by clicking on the play button.
-An mp3 music will be played in the background during the game if wishes. 
-When the user matches the pair of cards successfully, a small window with a congratulation page will show up with the player duration time speed. 
-The user can try a new game by clicking the button __play again__. 
 
 
  
