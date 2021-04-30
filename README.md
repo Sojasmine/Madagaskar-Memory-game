@@ -196,6 +196,9 @@ ___
 
    ![error](assets/docs/html1.png)
 
+   * Javascript error report 
+   ![Error](jshint.jpg)
+
 #### Code validation
 
    * I used [W3C](https://validator.w3.org/) to validate HTML code.
@@ -303,7 +306,7 @@ ___
    
 
 
-### Author
+   ### Author
 
    Sojasmine Gjerstad: Student at Code intsitute.
    [github page](https://github.com/Sojasmine/Madagaskar-Memory-game)
