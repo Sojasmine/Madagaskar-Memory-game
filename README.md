@@ -1,12 +1,16 @@
 # Madagascar Memory Game
+
 ---
+
 ## Interactive Frontend - Milestone Project 2 
 
 Welcome to my live website [here](https://sojasmine.github.io/Madagaskar-Memory-game/)
 link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game)
 This project is only for educational purpose
 (screen devices images here)
+
 ---
+
 ### Project Descritpion
 
 This site is about a single-player memory game to test a user’s memory based on Madagascar the famous cartoon movie. The goal is to find and match a pair of cards images. It is a cool game to train user memory brain capacity. 
@@ -14,7 +18,9 @@ Memory games are good for training memory and are usually played by children but
 Based on my own proven experience, I have seen that introducing games gives children the conditions to practice their abilities for empathy and mathematical thinking. In the game memory, there is a basic structure based on turn-taking and consideration, which develops the empathic ability. Being able to see similarities and differences and talk about patterns and pairing, gives children the opportunity to develop their mathematical thinking.
 This Javascript version of the memory game, using a 20 card deck for a single player.
 The language used to build this project is HTML, CSS and Javascript.
----
+
+___
+
 ## Table of contents
 
 - [UX](#ux)
@@ -61,7 +67,7 @@ ___
    * User can play anytime. 
 
 #### User stories:
-   * I want that it is easy to navigate and look nice. 
+   * I want that it is easy to navigate and the website looks nice. 
    * As a game player, I want to test my brain memory with this game.
    * As a game player, I want to read a simple explanation about how to play this game.
    * As a game player, I hope that this game is funny to play and entertaining.
@@ -96,6 +102,8 @@ ___
 
 #### How to play
    * By clicking on the text **How to play**, modal when clicked pops up and give the user a simple instruction on how the game is meant to play. The instruction is easy to read understand for every user. 
+   * The objective of the memory game is for the player to flip over pairs of cards and select two cards whose symbols  match.
+     The game ends when all the pairs cars are matched.
 
 #### Game page
    * Is the second page in the website. It is where the user play the game. In top of the page, a score panel with timer appear. 
@@ -121,6 +129,8 @@ ___
      * Choose a username.
      * Multiple player game.
      * Challenge another player
+     * Compare score with others.
+     * Track game statistic. 
      * New images will be available. 
 
 [Back to Table of contents](#table-of-contents)
@@ -134,21 +144,42 @@ ___
    
 #### Project goals stories 
    * The website has the technology to automatically respond to the user’s preferences.
+   > User can play the game on any screen devices. 
    * User can see that the website is more appealing and well designed.
+   > Simple design, easy to understand with colorful images.
    * Player can understand the simple game instructions.
+   > Easy and short explanation for the user to understand on the landing page.
    * Player can have fun playing the game.
+   > Nice cartoon images are available on the landing and game pages. User can listen to music too.  
    * User can play anytime.
+   > No need to make a registration. User can simply click on the play button and enjoy the game. 
 
 #### User stories tests
-   * I want that it is easy to navigate and look nice. 
+   * I want that it is easy to navigate and the webiste looks nice. 
+   > User can play by clicking on the *Let's play button*.  
+   > User can see that there are images and colorful contents. 
    * As a game player, I want to test my brain memory with this game.
+   > User can try to remember cards position by flipping and matching pair of cards around the cards board on the game page. 
    * As a game player, I want to read a simple explanation about how to play this game.
+   > The user needs to understand the main goal of the game. The instructions are very easy and simple to understand.
    * As a game player, I hope that this game is funny to play and entertaining.
+   > User can find funny cartoon images. There are images both on the front and back of the cards. 
    * As a game player, I want to be able to play this game on any devices.
+   > User can play this game on any devices. 
    * As a game player, I want to play this game anytime.
+   > User can come back and play this game again and again without login in. 
+   > No need for registration, just click the button and start playing.
 
 #### Bugs
+   * Problem with cards shuffling. The math Random is not working. 
+   ![Cards](assets/docs/Bild1.png)
 
+   * Problem with responsiveness on the game page.
+   ![Mobile vue](assets/docs/Mobile.JPG)
+   
+   * Warnings from [jshint](https://jshint.com/) about ES6.
+   > Solved it by adding a **/*jshint esversion: 6 */** comment in the top of my javscript file. 
+   * 
 #### Code validation
 #### Performance testing
 
