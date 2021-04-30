@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Original+Surfer&display=swap');
 body {
-    width: 100%;
-    font-family: Horn, serif;
+    margin: 0;
+    padding: 0;
     background: url('../images/jungle1.jpg') no-repeat center center fixed;
-    height: 100vh;
+    box-sizing: border-box;
     background-size: cover;
        
 }
@@ -32,7 +33,7 @@ img {
 }
 
 .w3-container {
-    background-color: transparent;
+  
     background: url(assets/images/greenery-.jpg);
     }
 
