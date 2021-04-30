@@ -53,14 +53,14 @@ ___
 ### UX
  According to [Nielsen Norman Group](https://www.nngroup.com/), user experience is to meet the exact needs of the customer, without fuss or bother. Next comes simplicity and elegance that produce products that are a joy to own, a joy to use. True user experience goes far beyond giving customers what they say they want or providing checklist features. Total user experience is an even broader concept.
 
-* Project goals: 
+#### Project goals: 
    * The website has the technology to automatically respond to the user’s preferences.
    * User can see that the website is more appealing and well designed.
    * Player can understand the simple game instructions.
    * Player can have fun playing the game.
    * User can play anytime. 
 
-* User stories:
+#### User stories:
    * I want that it is easy to navigate and look nice. 
    * As a game player, I want to test my brain memory with this game.
    * As a game player, I want to read a simple explanation about how to play this game.
@@ -68,21 +68,21 @@ ___
    * As a game player, I want to be able to play this game on any devices.
    * As a game player, I want to play this game anytime.
 
-* Wireframes
+#### Wireframes
    * I used [Balsamiq](https://balsamiq.com/) as an aid to visualize and design the website structure before starting the project development. 
    [My wireframes](link till adobe)
 
-* Strategy
+#### Strategy
    * I set out to make this friendly. It remembers me of my childhood as Madagascar is my homeland. And I wanted to share the happiness of being raised in a beautiful country rich in incredible nature and species. The game is just some fun for the user whether they are young or old.
    The idea of using Madagascar is quite fascinating. I made this game just for having fun by matching the pair of cards. 
-* Scope
+#### Scope
    * The scope for me was that I want to create the feeling and sensation of watching the  Madagascar movie again and let the user remember the movie and recognize again the animals in the game. That is the reason why I choose the __lemur__ picture as the front face of the cards. Background music can be playing in the background to make this game more interesting not boring. 
 
-* Design and inspiration
+#### Design and inspiration
    * I had a problem choosing a theme this time because my knowledge of Javascript is very limited and found it quite difficult. I read a lot of information and watched severals tutorial lessons on youtube. I learned a lot but still need more reading and improvement. Finally, I decided to modify a memory game. The idea behind the Madagascar cartoon come from me that this cartoon is very popular among children and even adults.
    * I was also inspired by reading some of Code Institutes students Github repositories on the __pree-code-preview__ in slack.
 
-* Colors
+#### Colors
    * Landing page: 
       * (Fill it in the end that I need to change colors for better user experience)
 
