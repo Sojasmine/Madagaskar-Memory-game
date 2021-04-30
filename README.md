@@ -1,45 +1,169 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Madagascar Memory Game
+---
+## Interactive Frontend - Milestone Project 2 
 
-Welcome Sojasmine,
+Welcome to my live website [here](https://sojasmine.github.io/Madagaskar-Memory-game/)
+link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game)
+This project is only for educational purpose
+(screen devices images here)
+---
+### Project Descritpion
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This site is about a single-player memory game to test a user’s memory based on Madagascar the famous cartoon movie. The goal is to find and match a pair of cards images. It is a cool game to train user memory brain capacity. 
+Memory games are good for training memory and are usually played by children but are also suitable for adults.
+Based on my own proven experience, I have seen that introducing games gives children the conditions to practice their abilities for empathy and mathematical thinking. In the game memory, there is a basic structure based on turn-taking and consideration, which develops the empathic ability. Being able to see similarities and differences and talk about patterns and pairing, gives children the opportunity to develop their mathematical thinking.
+This Javascript version of the memory game, using a 20 card deck for a single player.
+The language used to build this project is HTML, CSS and Javascript.
+---
+## Table of contents
 
-## Gitpod Reminders
+- [UX](#ux)
+   - [Project goals](#project-goals)
+   - [User stories](#user-stories)
+   - [Wireframes](#wireframes)
+   - [Design and inspiration](#design-and-inspiration)
+   - [Strategy](#strategy)
+   - [Scope](3scope)
+   - [Colors](#colors)
+- [Features](#features)
+   - [Landing page](#landing-page)
+   - [How to play](#how-to-play)
+   - [Game page](#game-page)
+   - [Timer](#timer)
+   - [Score](#score)
+   - [Features left to implement](#features-left-to-implement)
+- [Technolgies used](#technoligies-used)
+- [Testing]
+   - [Project goals stories](#project-goals-stories)
+   - [User stories tests](#user-stories-tests)
+   - [Bugs](#bugs)
+   - [Code validation](code-validation)
+   - [Performance testing](#perfomance-testing)
+- [Deployment](#deployement)
+- [Credits](#credits)
+    - [Images](#images)
+    - [Audio](#audio)
+    - [Font](#font)
+    - [Cursor](#cursor)
+    - [Source of code](#cursor)
+    - [Acknowledgements](#acknowledgements)
+    - [License](#license)
+___ 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### UX
+ According to [Nielsen Norman Group](https://www.nngroup.com/), user experience is to meet the exact needs of the customer, without fuss or bother. Next comes simplicity and elegance that produce products that are a joy to own, a joy to use. True user experience goes far beyond giving customers what they say they want or providing checklist features. Total user experience is an even broader concept.
 
-`python3 -m http.server`
+* Project goals: 
+   * The website has the technology to automatically respond to the user’s preferences.
+   * User can see that the website is more appealing and well designed.
+   * Player can understand the simple game instructions.
+   * Player can have fun playing the game.
+   * User can play anytime. 
 
-A blue button should appear to click: _Make Public_,
+* User stories:
+   * I want that it is easy to navigate and look nice. 
+   * As a game player, I want to test my brain memory with this game.
+   * As a game player, I want to read a simple explanation about how to play this game.
+   * As a game player, I hope that this game is funny to play and entertaining.
+   * As a game player, I want to be able to play this game on any devices.
+   * As a game player, I want to play this game anytime.
 
-Another blue button should appear to click: _Open Browser_.
+* Wireframes
+   * I used [Balsamiq](https://balsamiq.com/) as an aid to visualize and design the website structure before starting the project development. 
+   [My wireframes](link till adobe)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Strategy
+   * I set out to make this friendly. It remembers me of my childhood as Madagascar is my homeland. And I wanted to share the happiness of being raised in a beautiful country rich in incredible nature and species. The game is just some fun for the user whether they are young or old.
+   The idea of using Madagascar is quite fascinating. I made this game just for having fun by matching the pair of cards. 
+* Scope
+   * The scope for me was that I want to create the feeling and sensation of watching the  Madagascar movie again and let the user remember the movie and recognize again the animals in the game. That is the reason why I choose the __lemur__ picture as the front face of the cards. Background music can be playing in the background to make this game more interesting not boring. 
 
-A blue button should appear to click: _Make Public_,
+* Design and inspiration
+   * I had a problem choosing a theme this time because my knowledge of Javascript is very limited and found it quite difficult. I read a lot of information and watched severals tutorial lessons on youtube. I learned a lot but still need more reading and improvement. Finally, I decided to modify a memory game. The idea behind the Madagascar cartoon come from me that this cartoon is very popular among children and even adults.
+   * I was also inspired by reading some of Code Institutes students Github repositories on the __pree-code-preview__ in slack.
 
-Another blue button should appear to click: _Open Browser_.
+* Colors
+   * Landing page: 
+      * (Fill it in the end that I need to change colors for better user experience)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Back to Table of contents](#table-of-contents)
 
-## Updates Since The Instructional Video
+___
+### Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Landing page
+   * This website contains 2 pages. The landing page contains a tropical background image, an image of lemurs in the centre of the page. Title of the game on the top. Instruction about how to play and a play button that leads to the game page with text inside an image on it. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### How to play
+   * By clicking on the text **How to play**, modal when clicked pops up and give the user a simple instruction on how the game is meant to play. The instruction is easy to read understand for every user. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Game page
+   * Is the second page in the website. It is where the user paly the game. In top of the page, a score panel with timer appear. 
+   * There are two ON and OFF button for the audio.
+   * In the center of the page is the game container.
+   * A modal pops up when finishing the game with two buttons. (leave and a play again button, this is an option)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Timer 
+   * A timer measure the speedity of the palyer.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Score
+  * This showing the number of matched pairs of cards.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Features left to implement
+  * Adding difficulty levels: 
+     * To make the game more fair, I will add difficulty levels for the player.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  * The player will have a game customize option such as: 
+     * Create an account and choose an avatar.
+     * Choose a username.
+     * Multiple player game.
+     * Challenge another player
+     * New images will be available. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
+[Back to Table of contents](#table-of-contents)
 ---
 
-Happy coding!
+### Technologies used
+
+___
+
+### Testing
+   
+#### Project goals stories 
+   * The website has the technology to automatically respond to the user’s preferences.
+   * User can see that the website is more appealing and well designed.
+   * Player can understand the simple game instructions.
+   * Player can have fun playing the game.
+   * User can play anytime.
+
+#### User stories tests
+   * I want that it is easy to navigate and look nice. 
+   * As a game player, I want to test my brain memory with this game.
+   * As a game player, I want to read a simple explanation about how to play this game.
+   * As a game player, I hope that this game is funny to play and entertaining.
+   * As a game player, I want to be able to play this game on any devices.
+   * As a game player, I want to play this game anytime.
+
+#### Bugs
+
+#### Code validation
+#### Performance testing
+
+( fill later not yet finished)
+This website contains 2 pages. The main page for the game with animated background on the Html page. The game is centred on the main page.
+Instructions about how to play are available above the game section on the landing page. Modal when clicked pops up and give the user a simple instruction on how the game is meant to play. The instruction is easy to read understand for every user.
+The player can start the game by clicking on the play button.
+An mp3 music will be played in the background during the game if wishes. 
+When the user matches the pair of cards successfully, a small window with a congratulation page will show up with the player duration time speed. 
+The user can try a new game by clicking the button __play again__. 
+
+
+ 
+
+
+
+
+
+
+
+
