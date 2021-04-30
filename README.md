@@ -4,8 +4,9 @@
 
 ## Interactive Frontend - Milestone Project 2 
 
-Welcome to my live website [here](https://sojasmine.github.io/Madagaskar-Memory-game/)
-link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game)
+Welcome to my live website [here](https://sojasmine.github.io/Madagaskar-Memory-game/).
+
+Link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game).
 This project is only for educational purpose
 (screen devices images here)
 
@@ -133,7 +134,7 @@ ___
      * Track game statistic. 
      * New images will be available. 
 
-[Back to Table of contents](#table-of-contents)
+    [Back to Table of contents](#table-of-contents)
 ---
 
 ### Technologies used
@@ -176,7 +177,7 @@ ___
 
    * Problem with responsiveness on the game page.
    ![Mobile vue](assets/docs/Mobile.JPG)
-   
+
    * Warnings from [jshint](https://jshint.com/) about ES6.
    > Solved it by adding a **/*jshint esversion: 6 */** comment in the top of my javscript file. 
    * 

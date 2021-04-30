@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-
+ 
 let cards = document.querySelectorAll(".memory-card");
 let firstClick = false;
 let counter = 0;
@@ -12,7 +12,26 @@ cards.forEach((card) => {
     card.state = "unclicked";
 });
 
-shuffle();
+//shuffle();
+
+(function($){
+    $.fn.shuffle = function() {
+        var allElems = this.get(),
+            getRandom = function(max) {
+                return Math.floor(Math.random() * max);
+            },
+            shuffled = $.map(allElems, function(){
+                var random = getRandom(allElems.length),
+                    randEl = $(allElems[random]).clone(true)[0];
+                allElems.splice(random, 1);
+                return randEl;
+           });
+        this.each(function(i){
+            $(this).replaceWith($(shuffled[i]));
+        });
+        return $(shuffled);
+    };
+})(jQuery);
 
 for (let  i = 0; i < cards.length; i++) {
     cards[i].addEventListener("click", () => {
@@ -38,6 +57,10 @@ for (let  i = 0; i < cards.length; i++) {
     });
 }
 
+
+$("div#game-container img").shuffle();
+
+// check function
 function check() {
     if (cardPair.length == 2) {
         if (cardPair[0].querySelector("img").src == cardPair[1].querySelector("img").src) {
@@ -48,6 +71,8 @@ function check() {
     }
 }
 
+
+//Matched function
 function matched() {
     cardPair[0].state = "blocked";
     cardPair[1].state = "blocked";
@@ -63,7 +88,7 @@ function matched() {
     }
 }
 
-
+//Unmatched
 function unmatched(x,y) {
     setTimeout(() => {
         x.style.transform = "rotateY(0deg)";
@@ -75,6 +100,7 @@ function unmatched(x,y) {
     cardPair = [];
 }
 
+//Time function
 function time() {
     let secs = 0;
     let ID = setInterval(() => {
@@ -88,16 +114,18 @@ function time() {
     }
     }, 1000);
 }
- 
-
-function shuffle() {
-    card.forEach(cards => {
-        let randomPosition = Math.floor(Math.random() * 30);
-        cards.style.order = randomPosition;
-    });
-}
 
 
+//function shuffle() {
+//    card.forEach(cards => {
+ //       let randomPosition = Math.floor(Math.random() * 30);
+ //       cards.style.order = randomPosition;
+ //   });
+    
+//}
+
+
+// Audio function
 var mp3 = document.getElementById("myAudio"); 
 
 function playAudio() { 

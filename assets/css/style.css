@@ -10,7 +10,7 @@ body {
 .page-title {
     text-align: center;
     font-family: Horn, serif;
-    color: royalblue;
+    color: #ff3300;
     font-size: 50px;
 }
 
@@ -32,11 +32,15 @@ img {
 }
 
 .w3-container {
-    background-color: #fff;
+    background-color: transparent;
     background: url(assets/images/greenery-.jpg);
     }
 
 
 h4 {
     background-color: rosybrown;
+}
+
+.center {
+    text-align: center;
 }
