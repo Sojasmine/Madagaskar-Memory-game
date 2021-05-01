@@ -8,6 +8,8 @@ Welcome to my live website [here](https://sojasmine.github.io/Madagaskar-Memory-
 
 Link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game).
 This project is only for educational purpose
+
+This game is not mobile friendly. Desktop and ipad only
 (screen devices images here)
 
 ---

@@ -84,7 +84,12 @@ html {
         transition: all 0.75s ease;
         margin: 10px;
         display: flex;
-        border: 2 rem outset pink;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: normal;
+        
         
 }
 
@@ -114,6 +119,7 @@ html {
         text-align: center;
         margin-top: 15px;
         font-family: 'Inria', sans-serif;
+        color: red;
 }
 
 img {
@@ -121,15 +127,8 @@ img {
         min-height: 100%;
 }
 
-#myAudio {
-
-    display: flex;
-}
-
 .container {
     display: flex;
-   
-    
     align-items: center;
     flex-direction: column;
 }
