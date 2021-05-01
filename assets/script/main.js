@@ -124,7 +124,9 @@ function time() {
     }
     }, 1000);
 }
- 
+
+
+
 
 /*function shuffle() {
     card.forEach(cards => {
