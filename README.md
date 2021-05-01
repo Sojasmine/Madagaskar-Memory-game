@@ -82,9 +82,9 @@ ___
    * I used [Balsamiq](https://balsamiq.com/) as an aid to visualize and design the website structure before starting the project development. 
    [My wireframes](link till adobe)
 
-   ![desktop](assets/docs/desktop_laptop.pdf)
+   ![desktop](assets/docs/desktop.pdf)
 
-   ![tablet](assets/docs/tablet_vue.pdf)
+   ![tablet](assets/docs/desktop.pdf)
 
 #### Strategy
    * I set out to make this friendly. It remembers me of my childhood as Madagascar is my homeland. And I wanted to share the happiness of being raised in a beautiful country rich in incredible nature and species. The game is just some fun for the user whether they are young or old.
@@ -103,7 +103,7 @@ ___
    * background-color for headings: rosybrown;
 
    ###### Game page: 
-   *Html background-color: hsl(180, 100%, 90%);
+   * Html background-color: hsl(180, 100%, 90%);
 
    * Game container background-color: transparent;
 
@@ -159,7 +159,7 @@ ___
      * Track game statistic. 
      * New images will be available. 
 
-    [Back to Table of contents](#table-of-contents)
+[Back to Table of contents](#table-of-contents)
 ---
 
 ### Technologies used
@@ -215,6 +215,7 @@ ___
 
 #### Bugs
    *  Problem with cards shuffling. The math Random is not working. 
+
    ![Cards](assets/docs/Bild1.png)
 
    > Solved it by using a code snippet from [css tricks](https://css-tricks.com) 
@@ -227,12 +228,13 @@ ___
    > Solved it by adding a **/*jshint esversion: 6 */** comment in the top of my javscript file. 
 
         
-      ![Error-report](assets/docs/jshint.jpg)
+   ![Error](assets/docs/jshint.jpg)
 
    > I was not able to fix the warnings. Unsolved.
 
 
    * HTML validating error. 
+
    ![error](assets/docs/html.png)
 
 
@@ -332,66 +334,68 @@ ___
    
    * Those images were taken from [shutterstock]
 
-     [maki.jpg](https://www.shutterstock.com/sv/image-vector/cute-cartoon-funny-sitting-lemur-banana-1038744010)
+   [maki.jpg](https://www.shutterstock.com/sv/image-vector/cute-cartoon-funny-sitting-lemur-banana-1038744010)
 
-     [lemur7.jpg](https://www.shutterstock.com/sv/image-vector/cartoon-little-cute-lemur-went-walk-1649848858)
+   [lemur7.jpg](https://www.shutterstock.com/sv/image-vector/cartoon-little-cute-lemur-went-walk-1649848858)
 
-     [makoa.jpg](https://www.shutterstock.com/sv/image-vector/cute-lemur-cartoon-487784320)
+   [makoa.jpg](https://www.shutterstock.com/sv/image-vector/cute-lemur-cartoon-487784320)
 
-     [maka.jpg](https://www.shutterstock.com/sv/image-vector/lemur-family-love-illustration-vector-nursery-1637518393)
+   [maka.jpg](https://www.shutterstock.com/sv/image-vector/lemur-family-love-illustration-vector-nursery-1637518393)
 
-     [papegoja](https://www.shutterstock.com/sv/image-illustration/exotic-colorful-parrot-palm-monstera-leaves-1937076736)
+   [papegoja](https://www.shutterstock.com/sv/image-illustration/exotic-colorful-parrot-palm-monstera-leaves-1937076736)
 
-     [lemuro1.jpg](https://www.shutterstock.com/sv/image-vector/illustration-set-lemurs-102916832)
+   [lemuro1.jpg](https://www.shutterstock.com/sv/image-vector/illustration-set-lemurs-102916832)
 
 
    
 
    #### Audio
 
-      * The background music from [Youtube](https://www.youtube.com/watch?v=hdcTmpvDO0I&t=17s) converted to mp3.
+   * The background music from [Youtube](https://www.youtube.com/watch?v=hdcTmpvDO0I&t=17s) converted to mp3.
       
    #### Font
-      * Font used for the page title was borrowed from [fontspace](https://www.fontspace.com/horn-font-f13906)
+   * Font used for the page title was borrowed from [fontspace](https://www.fontspace.com/horn-font-f13906)
         - Horn font.
+
    #### Cursor
-      * Free cursor from [rw-designer](http://www.rw-designer.com/gallery?search=lemur+cursors)
+   * Free cursor from [rw-designer](http://www.rw-designer.com/gallery?search=lemur+cursors)
+
    #### Source of code
-      * Modal on the index.html was taken from [w3 schools](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_fade)
+   * Modal on the index.html was taken from [w3 schools](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_fade)
 
-      * Modified code for this project from codeTonight [yotube](https://www.youtube.com/watch?v=QrTCHHhoUQU)
+   * Modified code for this project from codeTonight [yotube](https://www.youtube.com/watch?v=QrTCHHhoUQU)
 
-      * Javascript code for the audio was taken from [w3 schools](https://www.w3schools.com/) : 
+   * Javascript code for the audio was taken from [w3 schools](https://www.w3schools.com/) : 
         
-        - [code](https://www.w3schools.com/jsreF/tryit.asp?filename=tryjsref_audio_pause)
+   - [code](https://www.w3schools.com/jsreF/tryit.asp?filename=tryjsref_audio_pause)
 
-      * Shuffle code was taken from [code](https://css-tricks.com/snippets/jquery/shuffle-dom-elements/)
+   * Shuffle code was taken from [code](https://css-tricks.com/snippets/jquery/shuffle-dom-elements/)
       
    #### Acknowledgements
 
-       * I would like to thank my mentor Adegbenga Adeye for his patient and understanding. 
-       * I would like to thank some student from Code Institute for tips and advice. 
+   * I would like to thank my mentor Adegbenga Adeye for his patient and understanding. 
+
+   * I would like to thank some student from Code Institute for tips and advice. 
    #### License
 
-       * [License agreement](https://www.123rf.com/license.php#standard) for the background image on the landing page. 
-       - I signed up for 30 days free trial on this site. 
+   * [License agreement](https://www.123rf.com/license.php#standard) for the background image on the landing page. 
 
-       * [License agreement](https://www.shutterstock.com/) for some of the cards images.
-       - I signed up for 30 days free trial on this site.
+   - I signed up for 30 days free trial on this site. 
 
-       [Back to Table of contents](#table-of-contents)
+   * [License agreement](https://www.shutterstock.com/) for some of the cards images.
+
+   - I signed up for 30 days free trial on this site.
+
+   [Back to Table of contents](#table-of-contents)
 
     ___
 
+   Sojasmine Gjerstad: Student at Code intsitute.
 
+   [github page](https://github.com/Sojasmine/Madagaskar-Memory-game)
+   [Website](https://sojasmine.github.io/Madagaskar-Memory-game/)
 
-    ####
-
-       Sojasmine Gjerstad: Student at Code intsitute.
-       [github page](https://github.com/Sojasmine/Madagaskar-Memory-game)
-       [Website](https://sojasmine.github.io/Madagaskar-Memory-game/)
-
-      Maj © 2021
+   Maj © 2021
 
 
  
