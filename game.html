@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
+    <!--Title-->
     <title>Memory Game</title>
 </head>
 <body>
     <div id="board">
-      <span><h3>Score:<span id="score">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time:<span id="time">00:00</span></h3></span>
+    <h3>Score:<span id="score">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time:<span id="time">00:00</span></h3>
       <br><br>
     </div><br><br>
     <!--Audio-->
+
 <section class="container-fluid">
+    <h2>Welcome!</h2>
     <div class="container">
         <audio id="myAudio">
             <source src="assets/audio/Move.mp3" type="audio/mpeg">
@@ -21,9 +24,9 @@
             <button onclick="playAudio()" type="button" style="background-color: rgb(184, 28, 150);">Play music</button>
 <button onclick="pauseAudio()" type="button" style="background-color: rgb(184, 28, 150);">Pause Music</button> 
     </div>
-</section>
+
     <!--Game container start here-->
-    <section class="container-fluid">
+    
     <div id="game-container">
        <div class="memory-game">
            <div class="memory-card">
@@ -145,8 +148,12 @@
             <div class="back"><img src="assets/images/pinguin.jpg" alt="Pinguin"></div>
         </div>
     </div>
-    </div>
-    </section>
+    </div><br><br>
+    <!--Exit button-->
+    <div class="w3-container" style="text-align: center;">
+    <a href="index.html" class="btn btn-primary" role="button" aria-pressed="true" style="background-color: #6666ff; width: 40px; height: 20px; font-size:x-large;">EXIT GAME</a>
+</div>
+</section>
     <!--Game container ends here-->
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

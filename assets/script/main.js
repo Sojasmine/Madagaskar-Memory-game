@@ -1,4 +1,8 @@
 /*jshint esversion: 6 */
+
+//Manipulating the DOM
+
+// Function audio
  
 var audio = document.getElementById("myAudio"); 
 
@@ -10,6 +14,7 @@ function pauseAudio() {
   audio.pause(); 
 } 
 
+ // Variables 
 let cards = document.querySelectorAll(".memory-card");
 let firstClick = false;
 let counter = 0;
@@ -72,6 +77,8 @@ for (let  i = 0; i < cards.length; i++) {
 
 $('div#game-container img').shuffle();
 
+//Function check
+
 function check() {
     if (counter == 2) { 
         if (cardPair[0].querySelector("img").src == cardPair[1].querySelector("img").src) {
@@ -81,6 +88,9 @@ function check() {
         }
     }
 }
+
+
+// Function matched
 
 function matched() {
     cardPair[0].state = "blocked";
@@ -97,7 +107,7 @@ function matched() {
     }
 }
 
-
+//Function unmatched
 
 function unmatched(x,y) {
     setTimeout(() => {
@@ -109,6 +119,8 @@ function unmatched(x,y) {
     counter = 0;
     cardPair = [];
 }
+
+// Function countdown interval and time
 
 function time() {
    

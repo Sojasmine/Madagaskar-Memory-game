@@ -1,4 +1,7 @@
+/* Font-family*/
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Original+Surfer&display=swap');
+
+/* body */
 body {
     margin: 0;
     padding: 0;
@@ -11,9 +14,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    cursor: url('../cursor/cursor.png'), auto;
        
 }
 
+/* headings*/
 .page-title {
     text-align: center;
     font-family: Horn, serif;
@@ -21,6 +26,12 @@ body {
     font-size: 50px;
 }
 
+h4 {
+    background-color: rosybrown;
+}
+
+
+/* Image */
 
 img {
     display: block;
@@ -38,15 +49,14 @@ img {
    
 }
 
+
+/* Container*/
+
 .w3-container {
   
     background: url(assets/images/greenery-.jpg);
     }
 
-
-h4 {
-    background-color: rosybrown;
-}
 
 .center {
     text-align: center;
