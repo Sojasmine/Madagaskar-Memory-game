@@ -292,7 +292,7 @@ ___
 
       * Javascript code for the audio was taken from [w3 schools](https://www.w3schools.com/) : 
         
-        - [code]()
+        - [code](https://www.w3schools.com/jsreF/tryit.asp?filename=tryjsref_audio_pause)
 
       * Shuffle code was taken from...
       

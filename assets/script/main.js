@@ -1,6 +1,16 @@
 /*jshint esversion: 6 */
  
 // Main idea came from https://www.youtube.com/watch?v=QrTCHHhoUQU and  was modified for the projects needs
+var audio = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  audio.play(); 
+} 
+
+function pauseAudio() { 
+  audio.pause(); 
+} 
+
 let cards = document.querySelectorAll(".memory-card");
 let firstClick = false;
 let counter = 0;
@@ -13,7 +23,27 @@ cards.forEach((card) => {
     card.state = "unclicked";
 });
 
-shuffle();
+//shuffle();
+
+
+(function($){
+    $.fn.shuffle = function() {
+        var allElems = this.get(),
+            getRandom = function(max) {
+                return Math.floor(Math.random() * max);
+            },
+            shuffled = $.map(allElems, function(){
+                var random = getRandom(allElems.length),
+                    randEl = $(allElems[random]).clone(true)[0];
+                allElems.splice(random, 1);
+                return randEl;
+           });
+        this.each(function(i){
+            $(this).replaceWith($(shuffled[i]));
+        });
+        return $(shuffled);
+    };
+})(jQuery);
 
 
 for (let  i = 0; i < cards.length; i++) {
@@ -40,7 +70,7 @@ for (let  i = 0; i < cards.length; i++) {
     });
 }
 
-
+$('div#game-container img').shuffle();
 
 function check() {
     if (counter == 2) { //value of counter must be two
@@ -57,15 +87,18 @@ function matched() {
     cardPair[1].state = "blocked";
     counter = 0; //counter update
     cardPair = [];
-    let flips = document.querySelector("#score").innerHTML; //get value of prev flips 
+    let score = document.querySelector("#score").innerHTML; //get value of prev flips 
     score++; //icrement 
     document.querySelector("#score").innerHTML = score;//update
 
-    if(score ===10) { //call function if all pair are found
+    if(score ===60) { //call function if all pair are found
         score = 10;
+        stopTime();
         
     }
 }
+
+
 
 function unmatched(x,y) {
     setTimeout(() => {
@@ -94,9 +127,10 @@ function time() {
     }, 1000);
 }
  
-function shuffle() {
+/*function shuffle() {
     card.forEach(cards => {
        let randomPosition = Math.floor(Math.random() * 30);
         cards.style.order = randomPosition;
     });
 }
+*/

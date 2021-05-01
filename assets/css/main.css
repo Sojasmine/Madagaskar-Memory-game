@@ -52,12 +52,21 @@ html {
 		}
 	}
 
-    #game-container {
-        height: 550px;
-        margin-left: 25px;
-    }
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 
-    .memory-game {
+#game-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.memory-game {
         height: 160px;
         width: 120px;
         background: transparent;
@@ -65,48 +74,65 @@ html {
         float: left;
         margin-left: 40px;
         margin-top: 20px;
-    }
+}
 
-    .memory-card {
-        position: absolute;
+.memory-card {
+        position: relative;
         height: 100%;
         width: 100%;
         transform-style: preserve-3d;
         transition: all 0.75s ease;
-    }
+        margin: 10px;
+        display: flex;
+        border: 2 rem outset pink;
+        
+}
 
-    .front, .back {
+.front, .back {
         position: absolute;
         height: 100%;
         width: 100%;
-        background: linear-gradient(45 deg, rgba(2,0,36,1) 0%, rgba(40,40,121,1) 35%, rgba(0,212,255,1) 100%);
         border-radius: 10px;
         backface-visibility: hidden;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
+        box-shadow: 0 4px 8px 0 rgba(129, 20, 133, 0.4);
+}
     
-    .front {
-        background: url("../images/lemur7.jpg") no-repeat;
+.front {
+        background: url("../images/lemur8.jpg") no-repeat;
         background-size: cover;
+}
 
-    }
-
-    .back {
+.back {
         transform: rotateY(180deg);
-    }
+}
 
-    #board {
-        height: 85px;
+#board {
+        height: 65px;
         width: 450px;
         border: 4px solid black;
         margin: auto;
         text-align: center;
         margin-top: 15px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+        font-family: 'Inria', sans-serif;
+}
 
-    img {
+img {
         width: 100%;
         min-height: 100%;
-    }
+}
+
+#myAudio {
+
+    display: flex;
+}
+
+.container {
+    display: flex;
+   
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+
 
