@@ -80,11 +80,14 @@ ___
 
 #### Wireframes
    * I used [Balsamiq](https://balsamiq.com/) as an aid to visualize and design the website structure before starting the project development. 
-   [My wireframes](link till adobe)
 
-   ![desktop](assets/docs/desktop.pdf)
 
-   ![tablet](assets/docs/desktop.pdf)
+[desktop](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:cd9b9470-a3e9-43fd-8aed-9f7483e65b53)
+
+
+![tablet](assets/docs/teblet.png)
+
+   
 
 #### Strategy
    * I set out to make this friendly. It remembers me of my childhood as Madagascar is my homeland. And I wanted to share the happiness of being raised in a beautiful country rich in incredible nature and species. The game is just some fun for the user whether they are young or old.
@@ -393,6 +396,7 @@ ___
    Sojasmine Gjerstad: Student at Code intsitute.
 
    [github page](https://github.com/Sojasmine/Madagaskar-Memory-game)
+
    [Website](https://sojasmine.github.io/Madagaskar-Memory-game/)
 
    Maj © 2021
