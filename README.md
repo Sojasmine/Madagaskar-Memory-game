@@ -293,6 +293,8 @@ ___
       * Javascript code for the audio was taken from [w3 schools](https://www.w3schools.com/) : 
         
         - [code]()
+
+      * Shuffle code was taken from...
       
    #### Acknowledgements
    #### License
