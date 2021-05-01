@@ -1,3 +1,4 @@
+/* fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Original+Surfer&display=swap');
 
 @font-face {
@@ -5,28 +6,25 @@
     src: url("../font/Horn-pymD.ttf") format("truetype");
 }
 
+/* body*/
 body{
     margin: 0;
     padding:0;
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    cursor: url(../cursor/cursor.png), auto;
+    cursor: url('../cursor/cursor.png'), auto;
 }
 
+/* HTML background image*/
 html {
 	height: 100vh;
 	/* max-height: 600px; */
 	width: 100%;
 	background-color: hsl(180, 100%, 90%);
 	background-image:		
-		url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
-		url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
-		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
-		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
-		url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
-
-	background-repeat: repeat-x;
+	url('https://cdn.pixabay.com/photo/2019/08/15/16/14/summer-4408406_960_720.jpg');
+        background-repeat: repeat-x;
 	background-position: 
 		0 20%,
 		0 100%,
@@ -58,6 +56,18 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+
+/* Headings*/
+
+h2 {
+        text-align: center;
+        font-family: Horn, sans-serif;
+        font-size: 60px;
+        color: #ff0066;
+        
+}
+/* Game container*/
 
 #game-container {
         display: flex;
@@ -113,21 +123,28 @@ html {
         border: thick double #32a1ce;
 }
 
-#board {
-        height: 65px;
-        width: 450px;
-        border: 4px solid #99ff33;
-        margin: auto;
-        text-align: center;
-        margin-top: 15px;
-        font-family: 'Inria', sans-serif;
-        color: red;
-}
 
 img {
         width: 100%;
         min-height: 100%;
 }
+
+/* Score panel*/
+
+#board {
+        height: 65px;
+        width: 450px;
+        border: 4px solid #0000ff;
+        margin: auto;
+        text-align: center;
+        margin-top: 15px;
+        font-family: 'Inria', sans-serif;
+        color: #ffffff;
+        font-weight: bold;
+}
+
+
+/* Audio button*/
 
 .container {
     display: flex;
