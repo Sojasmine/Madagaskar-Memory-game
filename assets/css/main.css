@@ -52,46 +52,43 @@ html {
 		}
 	}
 
-   #game-container {    
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    #game-container {
+        height: 550px;
+        margin-left: 25px;
     }
 
-     .memory-game {
-    height: 145px;
-    width: 195px;
-    background:transparent; 
-    perspective: 1000px; 
-    float: left;
-    margin-left: 40px;
-    margin-top:20px;
-  }
+    .memory-game {
+        height: 160px;
+        width: 120px;
+        background: transparent;
+        perspective: 1200px;
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
 
     .memory-card {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.75s ease;
-    border: 0.5rem outset pink;
-    }
-    
-    
-   .front, .back {
-    position:absolute; 
-    height:100%; 
-    width:100%; 
-    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(40,40,121,1) 35%, rgba(0,212,255,1) 100%);
-    backface-visibility:hidden; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transform-style: preserve-3d;
+        transition: all 0.75s ease;
     }
 
+    .front, .back {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(45 deg, rgba(2,0,36,1) 0%, rgba(40,40,121,1) 35%, rgba(0,212,255,1) 100%);
+        border-radius: 10px;
+        backface-visibility: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
     .front {
         background: url("../images/lemur7.jpg") no-repeat;
         background-size: cover;
-        
+
     }
 
     .back {
@@ -99,18 +96,17 @@ html {
     }
 
     #board {
-      height: 75px;
-      width: 375px;
-      margin: auto;
-      text-align: center;
-      margin-top: 6px;
-      font-family: 'Inria', sans-serif;
-      color: black;
+        height: 85px;
+        width: 450px;
+        border: 4px solid black;
+        margin: auto;
+        text-align: center;
+        margin-top: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     img {
         width: 100%;
         min-height: 100%;
     }
-    
-  
+
