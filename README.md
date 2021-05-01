@@ -10,7 +10,7 @@ Link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game).
 
 This project is only for educational purpose.
 
-This game is not mobile-friendly. It is optimised for desktop and Ipadpro screen only. 
+This game is not mobile-friendly. It is optimised for , laptop, desktop and tablets screen only. 
 
 (screen devices images here)
 
@@ -254,6 +254,11 @@ ___
    ( performance result here)(fill later not yet finished)
 
    [Back to Table of contents](#table-of-contents)
+
+
+   * Desktop testing: 
+
+    The site was tested in MSI and Lenovo laptop.
 ____
 
 ## Deployment
