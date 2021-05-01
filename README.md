@@ -82,6 +82,10 @@ ___
    * I used [Balsamiq](https://balsamiq.com/) as an aid to visualize and design the website structure before starting the project development. 
    [My wireframes](link till adobe)
 
+   ![desktop](assets/docs/desktop_laptop.pdf)
+
+   ![tablet](assets/docs/tablet_vue.pdf)
+
 #### Strategy
    * I set out to make this friendly. It remembers me of my childhood as Madagascar is my homeland. And I wanted to share the happiness of being raised in a beautiful country rich in incredible nature and species. The game is just some fun for the user whether they are young or old.
    The idea of using Madagascar is quite fascinating. I made this game just for having fun by matching the pair of cards. 
@@ -99,7 +103,7 @@ ___
    * background-color for headings: rosybrown;
 
    ###### Game page: 
-    *  Html background-color: hsl(180, 100%, 90%);
+   *Html background-color: hsl(180, 100%, 90%);
 
    * Game container background-color: transparent;
 
@@ -210,22 +214,27 @@ ___
    > No need for registration, just click the button and start playing.
 
 #### Bugs
-   * Problem with cards shuffling. The math Random is not working. 
+   *  Problem with cards shuffling. The math Random is not working. 
    ![Cards](assets/docs/Bild1.png)
 
-   > Solve it by using a code snippet from [css tricks](https://css-tricks.com) 
+   > Solved it by using a code snippet from [css tricks](https://css-tricks.com) 
+
 
    Link to the [code](https://css-tricks.com/snippets/jquery/shuffle-dom-elements/)
 
-      * Warnings from [jshint](https://jshint.com/) about ES6.
+   * Warnings from [jshint](https://jshint.com/) about ES6.
+
    > Solved it by adding a **/*jshint esversion: 6 */** comment in the top of my javscript file. 
+
         
-      ![Error report](assets/docs/jshint.jpg)
+      ![Error-report](assets/docs/jshint.jpg)
 
-      > I was not able to fix the warnings. Unsolved.
+   > I was not able to fix the warnings. Unsolved.
 
-   * HTML validating error.
+
+   * HTML validating error. 
    ![error](assets/docs/html.png)
+
 
    ![error](assets/docs/html1.png)
 
@@ -234,11 +243,17 @@ ___
 #### Code validation
 
    * I used [W3C](https://validator.w3.org/) to validate HTML code.
+
    > Final result: No warning to show.
+
    * I used [Jigsaw](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+
    > Final result: No warning to show.
+
    * I used [Jshint](https://jshint.com/) to validate Javscript.
+
    > 4 warnings, not solved. 
+
    * I used [Ami Responsive](http://ami.responsivedesign.is/) to controll responsiveness of the website. 
    > 
 
@@ -309,13 +324,13 @@ ___
        Link to the image: [jungle1](https://www.123rf.com/photo_90244905_horizontal-floral-seamless-pattern-made-with-colorful-leaves-and-flowers-of-tropical-plants-on-white.html?vti=ln5bbq0knfcckp3mzo-1-1)
 
 
-     * Free downloading of modal background image was taken from [pixabay](https://pixabay.com/) . I added text content by using Paint 3D on my computer.
+   * Free downloading of modal background image was taken from [pixabay](https://pixabay.com/) . I added text content by using Paint 3D on my computer.
 
       link to the image: [greenery-.jpg](https://pixabay.com/sv/illustrations/gr%C3%B6nska-l%C3%B6vverk-tropiska-exotiska-4407910/)
 
-    * Background from the game page was taken for free from [pixabay](https://cdn.pixabay.com/photo/2019/08/15/16/14/summer-4408406_960_720.jpg)
+   * Background from the game page was taken for free from [pixabay](https://cdn.pixabay.com/photo/2019/08/15/16/14/summer-4408406_960_720.jpg)
    
-    * Those images were taken from [shutterstock]
+   * Those images were taken from [shutterstock]
 
      [maki.jpg](https://www.shutterstock.com/sv/image-vector/cute-cartoon-funny-sitting-lemur-banana-1038744010)
 
@@ -364,19 +379,19 @@ ___
        * [License agreement](https://www.shutterstock.com/) for some of the cards images.
        - I signed up for 30 days free trial on this site.
 
-    [Back to Table of contents](#table-of-contents)
+       [Back to Table of contents](#table-of-contents)
 
     ___
 
 
 
-    ### Author
+    ####
 
-   Sojasmine Gjerstad: Student at Code intsitute.
-   [github page](https://github.com/Sojasmine/Madagaskar-Memory-game)
-   [Website](https://sojasmine.github.io/Madagaskar-Memory-game/)
+       Sojasmine Gjerstad: Student at Code intsitute.
+       [github page](https://github.com/Sojasmine/Madagaskar-Memory-game)
+       [Website](https://sojasmine.github.io/Madagaskar-Memory-game/)
 
-   Maj © 2021
+      Maj © 2021
 
 
  

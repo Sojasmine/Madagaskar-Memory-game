@@ -23,7 +23,7 @@ html {
 	width: 100%;
 	background-color: hsl(180, 100%, 90%);
 	background-image:		
-	url('https://cdn.pixabay.com/photo/2019/08/15/16/14/summer-4408406_960_720.jpg');
+	url('../images/image.jpg');
         background-repeat: repeat-x;
 	background-position: 
 		0 20%,
