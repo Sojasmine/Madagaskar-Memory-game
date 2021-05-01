@@ -11,6 +11,7 @@ body{
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
+    cursor: url(../cursor/cursor.png), auto;
 }
 
 html {
@@ -92,8 +93,6 @@ html {
         align-items: normal;
         border: 3mm ridge rgb(255, 204, 255);
         border-radius: 25px;
-        
-        
 }
 
 .front, .back {

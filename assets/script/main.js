@@ -18,6 +18,7 @@ let sec = 0;
 let score = 0;
 let card = document.querySelectorAll(".memory-game");
 
+
 cards.forEach((card) => {
     card.state = "unclicked";
 });
@@ -91,7 +92,7 @@ function matched() {
     document.querySelector("#score").innerHTML = score;
     if(score ===60) { 
         score = 10;
-        stopTime();
+        stopTimer();
         
     }
 }

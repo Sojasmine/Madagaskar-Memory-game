@@ -7,9 +7,11 @@
 Welcome to my live website [here](https://sojasmine.github.io/Madagaskar-Memory-game/).
 
 Link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game).
-This project is only for educational purpose
 
-This game is not mobile friendly. Desktop and ipad only
+This project is only for educational purpose.
+
+This game is not mobile friendly. It is optimised to desktop and Ipadpro screen only. 
+
 (screen devices images here)
 
 ---
@@ -20,7 +22,7 @@ This site is about a single-player memory game to test a user’s memory based o
 Memory games are good for training memory and are usually played by children but are also suitable for adults.
 Based on my own proven experience, I have seen that introducing games gives children the conditions to practice their abilities for empathy and mathematical thinking. In the game memory, there is a basic structure based on turn-taking and consideration, which develops the empathic ability. Being able to see similarities and differences and talk about patterns and pairing, gives children the opportunity to develop their mathematical thinking.
 This Javascript version of the memory game, using a 20 card deck for a single player.
-The language used to build this project is HTML, CSS and Javascript.
+The language used to build this project is HTML, CSS , Jquery and Javascript.
 
 ___
 
@@ -63,7 +65,6 @@ ___
  According to [Nielsen Norman Group](https://www.nngroup.com/), user experience is to meet the exact needs of the customer, without fuss or bother. Next comes simplicity and elegance that produce products that are a joy to own, a joy to use. True user experience goes far beyond giving customers what they say they want or providing checklist features. Total user experience is an even broader concept.
 
 #### Project goals: 
-   * The website has the technology to automatically respond to the user’s preferences.
    * User can see that the website is more appealing and well designed.
    * Player can understand the simple game instructions.
    * Player can have fun playing the game.
@@ -74,7 +75,7 @@ ___
    * As a game player, I want to test my brain memory with this game.
    * As a game player, I want to read a simple explanation about how to play this game.
    * As a game player, I hope that this game is funny to play and entertaining.
-   * As a game player, I want to be able to play this game on any devices.
+   * As a game player, I want to be able to play this game on a large screen.
    * As a game player, I want to play this game anytime.
 
 #### Wireframes
@@ -93,7 +94,27 @@ ___
 
 #### Colors
    * Landing page: 
-      * (Fill it in the end that I need to change colors for better user experience)
+      * page-title:  #ff3300;
+
+      * background-color for headings: rosybrown;
+
+   * Game page: 
+    
+     * Html background-color: hsl(180, 100%, 90%);
+
+     * Game container background-color: transparent;
+
+     * Memory card background-color:  rgb(255, 204, 255);
+
+     * Border color for card back: #32a1ce;
+
+     * Text-color in the border: red;
+
+     * Button color: rgb(184, 28, 150);
+
+     * Border color: #99ff33;
+
+     
 
 [Back to Table of contents](#table-of-contents)
 
