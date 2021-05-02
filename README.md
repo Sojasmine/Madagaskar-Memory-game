@@ -10,7 +10,7 @@ Link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game).
 
 This project is only for educational purpose.
 
-This game is not mobile-friendly. It is optimised for , laptop, desktop and tablets screen only. 
+This game is not mobile-friendly. It is optimised for , laptop, desktop and tablets screen only. The value of the image on the game changes belongs to the screen size.
 
 ![Screenshot](assets/docs/screen.jpg)
 
@@ -381,7 +381,12 @@ ___
 
    * I would like to thank my mentor Adegbenga Adeye for his patient and understanding. 
 
+   * I wanna thanks [codeTonight](https://www.youtube.com/channel/UCpb06fTkt2lx5qjEIocmZCg)
+
    * I would like to thank some student from Code Institute for tips and advice. 
+
+   * I I wanna thanks my family for their support during the last tough weeks for their encouragement.
+   
    #### License
 
    * [License agreement](https://www.123rf.com/license.php#standard) for the background image on the landing page. 

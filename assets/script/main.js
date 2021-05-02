@@ -102,8 +102,6 @@ function matched() {
     document.querySelector("#score").innerHTML = score;
     if(score ===60) { 
         score = 10;
-        stopTimer();
-        
     }
 }
 
