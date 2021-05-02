@@ -12,7 +12,7 @@ This project is only for educational purpose.
 
 This game is not mobile-friendly. It is optimised for , laptop, desktop and tablets screen only. 
 
-(screen devices images here)
+![Screenshot](assets/docs/screen.jpg)
 
 ---
 
@@ -85,7 +85,7 @@ ___
 [desktop](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:cd9b9470-a3e9-43fd-8aed-9f7483e65b53)
 
 
-![tablet](assets/docs/teblet.png)
+![tablet](assets/docs/tablet.png)
 
    
 
@@ -162,7 +162,8 @@ ___
      * Track game statistic. 
      * New images will be available. 
 
-[Back to Table of contents](#table-of-contents)
+   [Back to Table of contents](#table-of-contents)
+
 ---
 
 ### Technologies used
@@ -269,9 +270,9 @@ ___
    ![Peformance result](assets/docs/performance.png)
 
    Final result: 
+   
 
-
-   ( performance result here)(fill later not yet finished)
+   ![Result](assets/docs/perform.jpg)
 
    [Back to Table of contents](#table-of-contents)
 
@@ -279,6 +280,8 @@ ___
    * Desktop testing: 
 
     The site was tested in MSI and Lenovo laptop.
+
+    The website was tested on Firefox, Microsoft Edge and google chrome.
 ____
 
 ## Deployment
