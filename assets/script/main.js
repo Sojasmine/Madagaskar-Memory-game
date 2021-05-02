@@ -3,6 +3,8 @@
 //Manipulating the DOM
 
 // Function audio
+
+// All the source code was build from this youtube tutorial https://sojasmine.github.io/Madagaskar-Memory-game/
  
 var audio = document.getElementById("myAudio"); 
 
