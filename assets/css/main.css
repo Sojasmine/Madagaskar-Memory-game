@@ -6,55 +6,21 @@
     src: url("../font/Horn-pymD.ttf") format("truetype");
 }
 
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+
 /* body*/
-body{
-    margin: 0;
-    padding:0;
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
-    cursor: url('../cursor/cursor.png'), auto;
-}
 
 /* HTML background image*/
-html {
-	height: 100vh;
-	/* max-height: 600px; */
-	width: 100%;
-	background-color: hsl(180, 100%, 90%);
-	background-image:		
-	url('../images/image.jpg');
-        background-repeat: repeat-x;
-	background-position: 
-		0 20%,
-		0 100%,
-		0 50%,
-		0 100%,
-		0 0;
-	background-size: 
-		2500px,
-		800px,
-		500px 200px,
-		1000px,
-		400px 260px;
-	animation: 50s para infinite linear;
-	}
+body {  margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        cursor: url('../cursor/cursor.png'), auto; 
 
-@keyframes para {
-	100% {
-		background-position: 
-			-5000px 20%,
-			-800px 95%,
-			500px 50%,
-			1000px 100%,
-			400px 0;
-		}
-	}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
 }
 
 
@@ -89,28 +55,19 @@ h2 {
 }
 
 .memory-card {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        transform-style: preserve-3d;
-        transition: all 0.75s ease;
-        margin: 10px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: normal;
-        justify-content: normal;
-        align-items: normal;
+        float: left;
+	width: 128px;
+	height: 128px;
+	margin: 10px;
         border: 3mm ridge rgb(255, 204, 255);
         border-radius: 25px;
 }
 
 .front, .back {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        border-radius: 10px;
-        backface-visibility: hidden;
+        font-size: 14px;
+	font-weight: 200;
+	width: 128px;
+	height: 128px;
 }
     
 .front {
@@ -134,7 +91,7 @@ img {
 #board {
         height: 65px;
         width: 450px;
-        border: 4px solid #0000ff;
+        border: 4px solid red;
         margin: auto;
         text-align: center;
         margin-top: 15px;
@@ -153,4 +110,11 @@ img {
 }
 
 
+@media (max-width: 600px) {
+        #game-container {
+            grid-template-columns: repeat(2, auto);
+            margin: 50px;
+        }
+    }
 
+    
