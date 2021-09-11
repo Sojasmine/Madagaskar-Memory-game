@@ -24,12 +24,8 @@ body {
 .page-title {
     text-align: center;
     font-family: Horn, serif;
-    color: black;
+    color: red;
     font-size: 50px;
-}
-
-h1 {
-    background-color: black;
 }
 
 
@@ -44,5 +40,22 @@ h1 {
     background: teal;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   
+}
+
+	
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    
+}
 
 
