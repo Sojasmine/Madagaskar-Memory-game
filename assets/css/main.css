@@ -1,30 +1,25 @@
-/* fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Original+Surfer&display=swap');
+
 
 @font-face {
     font-family: "Horn";
     src: url("../font/Horn-pymD.ttf") format("truetype");
 }
 
-* {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        }
 
 /* body*/
-
-/* HTML background image*/
-body {  margin: 0;
-        padding: 0;
-        height: 100vh;
-        width: 100%;
-        cursor: url('../cursor/cursor.png'), auto; 
-
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: url('../cursor/cursor.png'), auto;
 }
 
 
 /* Headings*/
+
 
 h2 {
         text-align: center;
@@ -35,6 +30,7 @@ h2 {
 }
 /* Game container*/
 
+
 #game-container {
         display: flex;
         flex-wrap: wrap;
@@ -44,9 +40,10 @@ h2 {
         
 }
 
+
 .memory-game {
-        height: 160px;
-        width: 212px;
+        height: 100px;
+        width: 100px;
         background: transparent;
         perspective: 1200px;
         float: left;
@@ -54,20 +51,31 @@ h2 {
         margin-top: 20px;
 }
 
+
 .memory-card {
-        float: left;
-	width: 128px;
-	height: 128px;
-	margin: 10px;
+        position: relative;
+        height: 100px;
+        width: 100px;
+        transform-style: preserve-3d;
+        transition: all 0.75s ease;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: normal;
         border: 3mm ridge rgb(255, 204, 255);
         border-radius: 25px;
 }
 
+
 .front, .back {
-        font-size: 14px;
-	font-weight: 200;
-	width: 128px;
-	height: 128px;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
 }
     
 .front {
@@ -75,23 +83,28 @@ h2 {
         background-size: cover;
 }
 
+
 .back {
         transform: rotateY(180deg);
         border: thick double #32a1ce;
 }
 
 
+
+
 img {
-        width: 100%;
-        min-height: 100%;
+     width: 100%;
+     min-height: 100%;
 }
 
+
 /* Score panel*/
+
 
 #board {
         height: 65px;
         width: 450px;
-        border: 4px solid red;
+        border: 4px solid #0000ff;
         margin: auto;
         text-align: center;
         margin-top: 15px;
@@ -100,21 +113,3 @@ img {
         font-weight: bold;
 }
 
-
-/* Audio button*/
-
-.container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-@media (max-width: 600px) {
-        #game-container {
-            grid-template-columns: repeat(2, auto);
-            margin: 50px;
-        }
-    }
-
-    

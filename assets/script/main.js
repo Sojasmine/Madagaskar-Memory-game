@@ -17,6 +17,7 @@ function pauseAudio() {
 } 
 
  // Variables 
+let ID = 0;
 let cards = document.querySelectorAll(".memory-card");
 let firstClick = false;
 let counter = 0;
@@ -68,16 +69,16 @@ for (let  i = 0; i < cards.length; i++) {
             check();
         }
 
-        else if (cards[i].state == "clicked") {
-            cards[i].style.transform = "rotate(0deg)";
-            cards[i].state = "unclicked";
-            counter--;
-            cardPair = [];
-        }
+        // else if (cards[i].state == "clicked") {
+        //    cards[i].style.transform = "rotate(0deg)";
+        //    cards[i].state = "unclicked";
+        //    counter--;
+        //    cardPair = [];
+        // }
     });
 }
 
-$('div#game-container img').shuffle();
+$('div#container img').shuffle();
 
 //Function check
 
@@ -102,9 +103,9 @@ function matched() {
     let score = document.querySelector("#score").innerHTML; 
     score++; 
     document.querySelector("#score").innerHTML = score;
-    if(score ===60) { 
-        score = 10;
-    }
+    //if(score ===60) { 
+    //    score = 10;
+    // }
 }
 
 //Function unmatched
@@ -131,19 +132,21 @@ function time() {
         
         document.querySelector("#time").innerHTML = secs + "s";
         sec = `${secs}`;
-        
-        if(score===10){
+        console.log(score);
+        if(document.querySelector('#score').innerHTML === "10") {
             clearInterval(ID);
+            GameOver();
     }
     }, 1000);
 }
 
-
-
-
-function shuffle() {
-    card.forEach(cards => {
-       let randomPosition = Math.floor(Math.random() * 30);
-        cards.style.order = randomPosition;
-    });
+function GameOver() {
+    alert("Game Over");
 }
+
+//function shuffle() {
+//    card.forEach(cards => {
+//       let randomPosition = Math.floor(Math.random() * 30);
+//        cards.style.order = randomPosition;
+//    });
+// }
