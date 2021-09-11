@@ -1,5 +1,7 @@
-/* Font-family*/
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Original+Surfer&display=swap');
+@font-face {
+    font-family: "Horn";
+    src: url("../font/Horn-pymD.ttf") format("truetype"); 
+}
 
 /* body */
 body {
@@ -22,42 +24,25 @@ body {
 .page-title {
     text-align: center;
     font-family: Horn, serif;
-    color: #ff3300;
+    color: black;
     font-size: 50px;
 }
 
-h4 {
-    background-color: rosybrown;
+h1 {
+    background-color: black;
 }
 
 
-/* Image */
+.btn-warning {
+    font-family: Ma Shan Zheng;
+    font-size: 40px;
+    border: 3mm ridge rgb(179,255,102);
 
-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 50%;
-    
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-   
+.modal-title {
+    background: teal;
 }
 
 
-/* Container*/
 
-.w3-container {
-  
-    background: url(assets/images/greenery-.jpg);
-    }
-
-
-.center {
-    text-align: center;
-}
