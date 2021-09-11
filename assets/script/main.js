@@ -17,7 +17,7 @@ function pauseAudio() {
 } 
 
  // Variables 
-let ID = 0;
+
 let cards = document.querySelectorAll(".memory-card");
 let firstClick = false;
 let counter = 0;
@@ -141,7 +141,7 @@ function time() {
 }
 
 function GameOver() {
-    alert("Game Over");
+    alert('Congrats');
 }
 
 //function shuffle() {
