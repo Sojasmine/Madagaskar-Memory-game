@@ -141,10 +141,9 @@ function time() {
 
 
 
-/*function shuffle() {
+function shuffle() {
     card.forEach(cards => {
        let randomPosition = Math.floor(Math.random() * 30);
         cards.style.order = randomPosition;
     });
 }
-*/
