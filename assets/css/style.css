@@ -31,20 +31,6 @@ body {
 
 /* Score panel*/
 
-
-#board {
-    height: 65px;
-    width: 250px;
-    border: 4px solid #ff0066;
-    margin: auto;
-    text-align: center;
-    margin-top: 15px;
-    font-family: 'Inria', sans-serif;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-
 .btn-warning {
     font-family: Ma Shan Zheng;
     font-size: 40px;
@@ -65,7 +51,6 @@ body {
    
 }
 
-	
 
 img {
     display: block;
