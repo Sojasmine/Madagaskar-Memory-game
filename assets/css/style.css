@@ -3,7 +3,7 @@
     src: url("../font/Horn-pymD.ttf") format("truetype"); 
 }
 
-/* body */
+/*..................... body */
 body {
     margin: 0;
     padding: 0;
@@ -20,12 +20,28 @@ body {
        
 }
 
-/* headings*/
+/*....................headings */
 .page-title {
     text-align: center;
     font-family: Horn, serif;
-    color: red;
+    color: #ff0066;
     font-size: 50px;
+    padding: 35px;
+}
+
+/* Score panel*/
+
+
+#board {
+    height: 65px;
+    width: 250px;
+    border: 4px solid #ff0066;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Inria', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 
@@ -35,6 +51,7 @@ body {
     border: 3mm ridge rgb(179,255,102);
 
 }
+
 
 .modal-title {
     background: teal;
@@ -55,7 +72,24 @@ img {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
+    padding: 25px;
     
 }
 
+/*-------------------Footer*/
+
+footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ff0066;
+   color:  #fff;
+   text-align: center; 
+}
+
+footer p {
+    
+    margin: 6px;
+}
 
