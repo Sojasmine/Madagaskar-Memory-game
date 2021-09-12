@@ -133,7 +133,7 @@
  }
  
  function GameOver() {
-     alert('Congrats');
+    alert('Congrats');
  }
  
  //function shuffle() {
@@ -143,4 +143,3 @@
  //    });
  // }
 
- /
