@@ -12,21 +12,14 @@
     <title>Memory Game</title>
 </head>
 <body>
-    <div id="board" class="bg-dark">
-    <h3>Score:<span id="score">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time:<span id="time">00:00</span></h3>
-      <br><br>
-    </div><br><br>
-    <!--Audio-->
-
-    <h2>Welcome!</h2>
-    <div class="audio">
-        <audio id="myAudio">
-            <source src="assets/audio/Move.mp3" type="audio/mpeg">
-            </audio>
-            <button onclick="playAudio()" type="button" style="background-color: rgb(184, 28, 150);">Play Music</button>
-<button onclick="pauseAudio()" type="button" style="background-color: rgb(184, 28, 150);">Pause Music</button> 
+    
+    <div id="board" class="bg-dark">  
+    <h3>Score:<span id="score"> 0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time:<span id="time"> 00 </span> <audio controls>
+        <source src="assets/audio/Move.mp3" type="audio/mpeg">
+    </audio> </h3>
     </div>
-
+    
+    <h2>Welcome!</h2>
     <!--Game container start here-->
         <div id="container">
             <div class="row">
@@ -152,9 +145,19 @@
     </div>
         </div>
         </div>
-
     <!--Game container ends here-->
+   <!--Footer-->
+   <footer class="container-fluid">
+    <div class="row">
+        <div class="col text-center">
+            <p>Copyright &#169; 2021 Sojasmine Gjerstad| ALL RIGHT RESERVED</p>
+        </div>
+    </div>
+</footer>
+    
+    
     <!--Scripts-->
+    <script src="https://kit.fontawesome.com/ee85c59c17.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
