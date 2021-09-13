@@ -47,10 +47,9 @@ body {
 }
 
 .text-modal, h2 {
-    font-family: Ma Shan Zheng;
+    font-family: 'Horn';
     font-size: 20px;
     color: #ff0066;
-    border: 3mm ridge rgb(179,255,102);
 }
 
 img {
