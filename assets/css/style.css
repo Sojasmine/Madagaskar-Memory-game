@@ -38,11 +38,6 @@ body {
 
 }
 
-
-.modal-title {
-    background: teal;
-}
-
 .center {
     display: flex;
     justify-content: center;

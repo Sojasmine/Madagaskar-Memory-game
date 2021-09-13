@@ -122,7 +122,7 @@
      let ID = setInterval(() => {
          secs++;
          
-         document.querySelector("#time").innerHTML = secs + "s";
+         document.querySelector("#time").innerHTML = secs + "s", min="m";
          sec = `${secs}`;
          console.log(score);
          if(document.querySelector('#score').innerHTML === "10") {
@@ -132,9 +132,13 @@
      }, 1000);
  }
  
- function GameOver() {
-    alert('Congrats');
- }
+ 
+ function GameOver(score, time) {
+	alert('Good Job, Keep Playing!');
+}
+	
+
+
  
  //function shuffle() {
  //    card.forEach(cards => {
