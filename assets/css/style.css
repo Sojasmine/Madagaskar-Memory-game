@@ -29,6 +29,7 @@ body {
     padding: 35px;
 }
 
+
 /* Score panel*/
 
 .btn-warning {
@@ -43,9 +44,14 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
-   
 }
 
+.text-modal, h2 {
+    font-family: Ma Shan Zheng;
+    font-size: 20px;
+    color: #ff0066;
+    border: 3mm ridge rgb(179,255,102);
+}
 
 img {
     display: block;
