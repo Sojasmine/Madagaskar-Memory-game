@@ -68,7 +68,7 @@
       });
   }
   
-  $('div#container img').shuffle();
+  $('div#grid-container img').shuffle();
   
   //Function check
   
@@ -132,7 +132,7 @@
   
 
   function GameOver(score, time) {
-     alert('Good Job, Keep Playing!');
+    alert= new component('Good Job, Keep Playing!',30, 30, "smiley.gif", 10, 120, "image");
  }
      
  
