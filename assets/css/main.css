@@ -45,7 +45,7 @@ h3 {
         position: relative;
         height: 100px;
         width: 25%;
-        margin: 19;
+        margin: auto;
         background: transparent;
         perspective: 1200px;
         float: left;
@@ -111,25 +111,7 @@ a:visited {
 a:hover,
 a:active {
         background-color: rgb(179, 255, 102);
-}
-
-
-
-/*-------------------Footer*/
-
-footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 50%;
-        background-color: #ff0066;
-        color: #fff;
-        text-align: center;
-
-}
-
-footer p {
-        margin: 2px;
+        color: black;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -142,8 +124,8 @@ footer p {
 
 .memory-game {
                 height: 75px;
-                width: 75px;
-                margin:13px;
+                width: 90px;
+                margin:9px;
                 padding: 1px;
                 background: transparent;
                 perspective: 1200px;
@@ -194,37 +176,8 @@ img {
         width: 1.rem;
         min-height: 1.rem;
 }
-.h3 {
-        position: absolute;
-        text-align: center;
-        
-        font-size: 2em;
-        color: #fff;
+
 }
-
-#score, 
-#time {
-        color:#ff0066;
-        
-}
-
-a:link,
-a:visited {
-        background-color: #ff0066;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-}
-
-a:hover,
-a:active {
-        background-color: rgb(179, 255, 102);
-}
-
-  
-
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 667px) {
   .container {
@@ -233,21 +186,6 @@ a:active {
     flex-wrap: wrap;
     margin: 22px;
   }
-  
-footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 10%;
-        background-color: #ff0066;
-        color: #fff;
-        text-align: center;
-
-}
-
-footer p {
-        margin: 1px;
-}
 }
 
 @media screen and (max-width: 375px) {
@@ -260,7 +198,7 @@ footer p {
   .memory-game {
         height: 75px;
         width: 75px;
-        margin:8.5px;
+        margin:9px;
         padding: 1px;
         background: transparent;
         perspective: 1200px;
@@ -272,7 +210,7 @@ footer p {
 .memory-card {
 position: relative;
 height: 85px;
-width: 100px;
+width: 90px;
 transform-style: preserve-3d;
 transition: all 0.75s ease;
 margin: auto;
@@ -310,20 +248,5 @@ transform: rotateY(180deg);
 img {
 width: 1.rem;
 min-height: 1.rem;
-}
-  footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 10%;
-        background-color: #ff0066;
-        color: #fff;
-        text-align: center;
-
-}
-
-footer p {
-        margin: 1px;
-}
 }
 }
