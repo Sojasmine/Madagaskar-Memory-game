@@ -10,11 +10,6 @@ body {
     height: 100vh;
     width: 100%;
     background: url('../images/jungle1.jpg') no-repeat center center fixed;
-    box-sizing: border-box;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     cursor: url('../cursor/cursor.png'), auto;
        
@@ -25,8 +20,8 @@ body {
     text-align: center;
     font-family: Horn, serif;
     color: #ff0066;
-    font-size: 50px;
-    padding: 35px;
+    font-size: 2.5rem;
+    padding: 10px;
 }
 
 
@@ -34,7 +29,7 @@ body {
 
 .btn-warning {
     font-family: Ma Shan Zheng;
-    font-size: 40px;
+    font-size: 1.2rem;
     border: 3mm ridge rgb(179,255,102);
 
 }
@@ -48,7 +43,7 @@ body {
 
 .text-modal, h2 {
     font-family: 'Horn';
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #ff0066;
 }
 
@@ -57,7 +52,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
-    padding: 25px;
+    padding: 0,5em;
     
 }
 
@@ -67,7 +62,7 @@ footer {
     position: fixed;
    left: 0;
    bottom: 0;
-   width: 100%;
+   width: 50%;
    background-color: #ff0066;
    color:  #fff;
    text-align: center; 
@@ -75,6 +70,6 @@ footer {
 
 footer p {
     
-    margin: 6px;
+    margin: 2px;
 }
 
