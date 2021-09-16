@@ -53,7 +53,7 @@ a:active {
 
 /*....................... Game container*/
 
-.container {
+#container {
         display: flex;
         flex-wrap: wrap;
       }
@@ -231,7 +231,10 @@ a:active {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 667px) {
-  #grid-container {
+  .container {
     max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 23px;
   }
 }
