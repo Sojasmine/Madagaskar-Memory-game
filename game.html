@@ -1,165 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
-    
+
     <!--Title-->
     <title>Memory Game</title>
 </head>
+
 <body>
-    
-    <!--Game container start here-->
-    <h3 style="border-radius: 2px; background-color: black;">Score:<span id="score" > 0</span>&nbsp;&nbsp;Time:<span id="time">  00:00</span></h3>
-      <div class="audio-container">
+
+    <!--score panel-->
+    <h3 style="border-radius: 2px; background-color: black;">Score:<span id="score"> 0</span>&nbsp;&nbsp;Time:<span
+            id="time"> 00:00</span></h3>
+    <!--Audio-->
+    <div class="audio-container">
         <audio controls class="audiplay" style="width: 240px; height: 25px; margin-top: 5px; margin-bottom: 5px;">
             <source src="assets/audio/Move.mp3" type="audio/mp3">Your browser does not support the audio element.
         </audio>
-      </div><br>
+    </div><br>
+    <!--Play again and exit game links-->
     <div style="text-align:center;">
-        <span><a href="game.html" class="text-uppercase" style="padding: 6px;"><strong>Play again</strong></a></span>&nbsp;&nbsp;&nbsp;&nbsp;
-        <span><a href="index.html" class="center text-uppercase"  style="padding: 6px;"><strong>Exit Game</strong></a></span></div>
+        <span><a href="game.html" class="text-uppercase" style="padding: 6px;"><strong>Play
+                    again</strong></a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span><a href="index.html" class="center text-uppercase" style="padding: 6px;"><strong>Exit
+                    Game</strong></a></span></div>
+    <!--Game container start here-->
     <div id="container">
         <div class="row">
-          <div class="memory-game col-sm-2">
-       <div class="memory-card">
-           <div class="front"></div>
-           <div class="back"><img src="assets/images/floodhest.jpg" alt="Floodhest"></div>
-       </div>
-   </div>
-   <div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/floodhest.jpg" alt="Floodhest"></div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/floodhest.jpg" alt="Floodhest"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/floodhest.jpg" alt="Floodhest"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/fosa.jpg" alt="Fosa"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/fosa.jpg" alt="Fosa"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/giraf.jpg" alt="Giraf"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/giraf.jpg" alt="Giraf"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/lion.jpg" alt="Lion"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/lion.jpg" alt="Lion"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/maka.jpg" alt="Maka"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/maka.jpg" alt="Maka"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/make.jpg" alt="Make"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/make.jpg" alt="Make"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/maki.jpg" alt="Maki"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/maki.jpg" alt="Maki"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/makoa.jpg" alt="Makoa"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/makoa.jpg" alt="Makoa"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/papegoja.jpg" alt="Papegoja"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/papegoja.jpg" alt="Papegoja"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/pinguin.jpg" alt="Pinguin"></div>
+                </div>
+            </div>
+            <div class="memory-game col-sm-2">
+                <div class="memory-card">
+                    <div class="front"></div>
+                    <div class="back"><img src="assets/images/pinguin.jpg" alt="Pinguin"></div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/fosa.jpg" alt="Fosa"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/fosa.jpg" alt="Fosa"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/giraf.jpg" alt="Giraf"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/giraf.jpg" alt="Giraf"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/lion.jpg" alt="Lion"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/lion.jpg" alt="Lion"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/maka.jpg" alt="Maka"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/maka.jpg" alt="Maka"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/make.jpg" alt="Make"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/make.jpg" alt="Make"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/maki.jpg" alt="Maki"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/maki.jpg" alt="Maki"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/makoa.jpg" alt="Makoa"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/makoa.jpg" alt="Makoa"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/papegoja.jpg" alt="Papegoja"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/papegoja.jpg" alt="Papegoja"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/pinguin.jpg" alt="Pinguin"></div>
-    </div>
-</div>
-<div class="memory-game col-sm-2">
-    <div class="memory-card">
-        <div class="front"></div>
-        <div class="back"><img src="assets/images/pinguin.jpg" alt="Pinguin"></div>
-    </div>
-</div>
-</div>
-    </div>
-    <p style="position: fixed; bottom: 0; left: 0; width: 100%; text-align: center; color: #ff0066;">Copyright &#169; 2021 Sojasmine Gjerstad.</p>
-
     <!--Game container ends here-->
-   <!--Bottom of the page-->
-   
-    <!--Scripts--> 
-    <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/AudiPlay/audiplay.js"></script> 
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/gh/SH20RAJ/AudiPlay/audiplay.js"></script>
     <script src="https://kit.fontawesome.com/ee85c59c17.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
     <script src="assets/script/main.js">
     </script>
 </body>
-</html> 
+
+</html>
