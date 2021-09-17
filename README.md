@@ -34,7 +34,7 @@ ___
    - [Wireframes](#wireframes)
    - [Design and inspiration](#design-and-inspiration)
    - [Strategy](#strategy)
-   - [Scope](3scope)
+   - [Scope](#scope)
    - [Colors](#colors)
    - [Typography](#Typography)
 - [Features](#features)
@@ -42,15 +42,16 @@ ___
    - [How to play](#how-to-play)
    - [Game page](#game-page)
    - [Timer](#timer)
+   - [Error page](#Error-page)
    - [Features left to implement](#features-left-to-implement)
-- [Technolgies used](#technoligies-used)
-- [Testing](#Testing)
+- [Technologies used](#technoligies-used)
+- [Testing](#testing)
    - [Project goals stories](#project-goals-stories)
    - [User stories tests](#user-stories-tests)
    - [Bugs](#bugs)
-   - [Code validation](code-validation)
-   - [Performance testing](#perfomance-testing)
-- [Deployment](#deployement)
+   - [Code validation](#code-validation)
+   - [Performance testing](#performance-testing)
+- [Deployment](#deployment)
 - [Credits](#credits)
     - [Images](#images)
     - [Audio](#audio)
@@ -78,6 +79,7 @@ ___
    * As a game player, I want to be able to play this game on a large screen.
    * As a game player. I want to be able to play this game om my mobile phone. 
    * As a game player, I want to play this game anytime.
+   * As a game player, I want to see my score. 
 
 #### Wireframes
    * I used [Balsamiq](https://balsamiq.com/) as an aid to visualize and design the website structure before starting the project development. 
@@ -87,6 +89,9 @@ ___
 
 
 [Game.html](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:3ed9cce8-05db-4bdb-85ef-05847b32ef74)
+
+
+[404](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:be0af8b0-c6bf-4f3b-9761-32e871056678)
 
    
 
@@ -114,8 +119,9 @@ ___
 
 #### Typography]
 
-Ma Shan Zheng was chosen as a font-family. Horn is used for the font face.
-The start game is bootstra
+* Ma Shan Zheng was chosen as a font-family. 
+* Horn is used for the font face.
+* The start game is bootstra
 
 [Back to Table of contents](#table-of-contents)
 
@@ -149,6 +155,12 @@ ___
 
    ![Timer](assets/docs/timer.jpg)
 
+
+#### Error page
+   * 404 Error ensure users to have possiblity to go back to the page thery visited.
+
+    ![404](assets/docs/404.jpeg)
+
 #### Features left to implement
 
    * The game contains 24 cards with cartoons images with bright border-radius colour. The Madagascar cartoon characters were chosen to add additional fun. All the images have the same size.  
@@ -162,11 +174,11 @@ ___
 
    The background photos used are: 
 
-   ![Homepage background](assest/images/jungle.jpg)
+   ![Homepage background](assets/images/jungle.jpg)
 
 
 
-   ![Game page background](assets/images7foliage1.png)
+   ![Game page background](assets/images/foliage1.png)
 
 
   ###### Adding difficulty levels: 
@@ -208,7 +220,7 @@ ___
 ___
 
 ### Testing
-   
+
 #### Project goals stories 
    * User can see that the website is more appealing and well designed.
    > Simple design, easy to understand with colourful images.
@@ -246,21 +258,58 @@ ___
 
    * As a game player, I want to be able to play this game on a large screen.
    > User can play this game on any desktop and tablets screen.
-   
-   ![large screen](assets/docs/)
+
+     * Ipad
+
+   ![large screen](assets/docs/ipad.jpg)
+
+
 
    * As a game player. I want to be able to play this game om my mobile phone. 
+    
+    * Iphone 7
+
+   ![Small devices](assets/docs/iphone7.jpg)
 
 
-   ![Smal devices](assets/docs/)
+
+   * Iphone 5
+
+   ![Small devices](assets/docs/iphone5.jpg)
+
+
+  * Blackberry landscape
+
+
+   ![Small devices](assets/docs/blackberry.jpg)
+
+
  
    * As a game player, I want to play this game anytime.
    > User can come back and play this game again and again without login in. 
+
+   ![alert](assets/docs/alert.jpg)
    > No need for registration, just click the button and start playing.
+
+   * As a game player, I want to see my score. 
+   > User can see their speedity when all pairs found. 
+
+
+   ![Smal devices](assets/docs/matched.jpeg)
+   
+
+   * Test result from real user: 
+
+
+   ![test1](assets/docs/result.jpg)
+
+
+   ![Test2](assets/docs/result1.jpg)
+   
 
 #### Bugs
 
-   *  Problem with cards shuffling. The math Random is not working. 
+   * Problem with cards shuffling. The math Random is not working. 
 
    ![Cards](assets/docs/Bild1.png)
 
@@ -278,8 +327,6 @@ ___
    > I got a tips to wathc this [Youtube](https://www.youtube.com/watch?v=_-aDOAMmDHI) video. 
    > I used those methods to figure out how **vw** , **rem** and **em** are working: 
    
-   [Khaledkzy](https://khaledkzy.github.io/)
-
 
    [Nekocalc](https://nekocalc.com/)
 
@@ -299,7 +346,7 @@ ___
    * Problem centring the audio tag
    > I tried multiple code to force the audio to be in the center with no lack. I googled tips but it was hard to find. 
 
-   ![Audio](assests/docs/audio.jpg)
+   ![Audio](assets/docs/audio.jpg)
 
 
 
@@ -344,8 +391,6 @@ ___
    
 
 
-
-
 #### Performance testing
    
    * I used [lighthouse](https://developer.chrome.com/) to generate report peformance
@@ -362,9 +407,21 @@ ___
 
    * Desktop testing: 
 
-    The site was tested in MSI and Lenovo laptop.
+   The site was tested in MSI and Lenovo laptop.
 
-    The website was tested on Firefox, Microsoft Edge and google chrome.
+   The website was tested on Firefox, Microsoft Edge and google chrome.
+
+   * Real devices testing: 
+ 
+      * A tablet.
+      * A motorola
+      * Iphone
+      * Nokia
+      * Samsung
+      * Huawei P30
+
+
+
 ____
 
 ## Deployment
@@ -415,11 +472,7 @@ ___
        Link to the image: [jungle1](https://www.123rf.com/photo_90244905_horizontal-floral-seamless-pattern-made-with-colorful-leaves-and-flowers-of-tropical-plants-on-white.html?vti=ln5bbq0knfcckp3mzo-1-1)
 
 
-   * Free downloading of modal background image was taken from [pixabay](https://pixabay.com/) . I added text content by using Paint 3D on my computer.
-
-      link to the image: [greenery-.jpg](https://pixabay.com/sv/illustrations/gr%C3%B6nska-l%C3%B6vverk-tropiska-exotiska-4407910/)
-
-   * Background from the game page was taken for free from [pixabay](https://cdn.pixabay.com/photo/2019/08/15/16/14/summer-4408406_960_720.jpg)
+   * Background from the game page was taken for free from [pixabay](https://pixabay.com/sv/illustrations/l%c3%b6vverk-golv-natur-v%c3%a5r-djungel-4128742/)
    
    * Those images were taken from [shutterstock]
 
@@ -450,25 +503,29 @@ ___
    * Free cursor from [rw-designer](http://www.rw-designer.com/gallery?search=lemur+cursors)
 
    #### Source of code
-   * Modal on the index.html was taken from [w3 schools](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_fade)
+   * Modal on the index.html was taken from [bootstrap](https://getbootstrap.com/)
 
    * Modified code for this project from codeTonight [yotube](https://www.youtube.com/watch?v=QrTCHHhoUQU)
 
-   * Javascript code for the audio was taken from [w3 schools](https://www.w3schools.com/) : 
-        
-   - [code](https://www.w3schools.com/jsreF/tryit.asp?filename=tryjsref_audio_pause)
+   * Code for the audito tag was takem from [Audio](https://www.youtube.com/watch?v=L5gFnaTItmE&list=PL4qBeMvI9dekyxjnFQLyWZtgMM20RQ_T6&index=92)
 
-   * Shuffle code was taken from [code](https://css-tricks.com/snippets/jquery/shuffle-dom-elements/)
+   * Code for the responsivness from [Youtube](https://www.youtube.com/watch?v=_-aDOAMmDHI)
+
+   *[Shuffle Code](https://css-tricks.com/snippets/jquery/shuffle-dom-elements/)
+
+   * Code for 404 page[Codepen](https://codepen.io/ThatGuySam/pen/CytDA)
       
    #### Acknowledgements
 
    * I would like to thank my mentor Adegbenga Adeye for his patient and understanding. 
 
+   * Great thanks to Code Institute tutors Igor CI, Michael and John Trass for their support and advices.
+
    * I wanna thanks [codeTonight](https://www.youtube.com/channel/UCpb06fTkt2lx5qjEIocmZCg)
 
    * I would like to thank some student from Code Institute for tips and advice. 
 
-   * I I wanna thanks my family for their support during the last tough weeks for their encouragement.
+   * I  wanna thanks my family for their support during the last tough weeks for their encouragement.
    
    #### License
 
