@@ -225,7 +225,7 @@ a:active {
         .memory-card {
                 position: relative;
                 height: 85px;
-                width: 90px;
+                width: 95px;
                 transform-style: preserve-3d;
                 transition: all 0.75s ease;
                 margin: auto;
