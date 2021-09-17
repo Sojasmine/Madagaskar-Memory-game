@@ -4,7 +4,7 @@
 
 // Function audio
 
-// All the source code was build from this youtube tutorial https://sojasmine.github.io/Madagaskar-Memory-game/
+// All the source code was build from this youtube tutorial https://www.youtube.com/watch?v=QrTCHHhoUQU
 
 // Variables 
 
