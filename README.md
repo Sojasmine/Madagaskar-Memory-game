@@ -44,7 +44,7 @@ ___
    - [Timer](#timer)
    - [Error page](#Error-page)
    - [Features left to implement](#features-left-to-implement)
-- [Technologies used](#technoligies-used)
+- [Technologies used](#technologies-used)
 - [Testing](#testing)
    - [Project goals stories](#project-goals-stories)
    - [User stories tests](#user-stories-tests)
@@ -371,7 +371,7 @@ ___
 
    > Final result: No warning to show.
 
-   ![Error](assets/docs/error/jpg)
+   ![Error](assets/docs/error.jpg)
 
 
 
