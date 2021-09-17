@@ -38,7 +38,7 @@ h3 {
 
 }
 
-/*.......................code smippets from https://stackoverflow.com/questions/55126972/how-to-centre-center-html-audio-player-to-middle-of-webpage
+/*.......................code smippets from https://stackoverflow.com/questions/55126972/how-to-centre-center-html-audio-player-to-middle-of-webpage*/
 .audio-container {
         display: flex;
         justify-content: center;
@@ -225,7 +225,7 @@ a:active {
         .memory-card {
                 position: relative;
                 height: 85px;
-                width: 95px;
+                width: 92px;
                 transform-style: preserve-3d;
                 transition: all 0.75s ease;
                 margin: auto;
