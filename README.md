@@ -395,12 +395,11 @@ ___
    
    * I used [lighthouse](https://developer.chrome.com/) to generate report peformance
 
-   ![Peformance result](assets/docs/performance.png)
-
    Final result: 
    
 
-   ![Result](assets/docs/perform.jpg)
+   ![Result](assets/docs/performance.jpg)
+
 
    [Back to Table of contents](#table-of-contents)
 
@@ -503,11 +502,12 @@ ___
    * Free cursor from [rw-designer](http://www.rw-designer.com/gallery?search=lemur+cursors)
 
    #### Source of code
+
    * Modal on the index.html was taken from [bootstrap](https://getbootstrap.com/)
 
    * Modified code for this project from codeTonight [yotube](https://www.youtube.com/watch?v=QrTCHHhoUQU)
 
-   * Code for the audito tag was takem from [Audio](https://www.youtube.com/watch?v=L5gFnaTItmE&list=PL4qBeMvI9dekyxjnFQLyWZtgMM20RQ_T6&index=92)
+   * Code for the audito tag was takem from [Audio](https://www.youtube.com/watch?v=L5gFnaTItmE&list=PL4qBeMvI9dekyxjnFQLyWZtgMM20RQ_T6&index=92)  and https://stackoverflow.com/questions/55126972/how-to-centre-center-html-audio-player-to-middle-of-webpage
 
    * Code for the responsivness from [Youtube](https://www.youtube.com/watch?v=_-aDOAMmDHI)
 
@@ -519,7 +519,7 @@ ___
 
    * I would like to thank my mentor Adegbenga Adeye for his patient and understanding. 
 
-   * Great thanks to Code Institute tutors Igor CI, Michael and John Trass for their support and advices.
+   * Great thanks to Code Institute tutors Igor Ci, Michael and John Trass for their support and advices.
 
    * I wanna thanks [codeTonight](https://www.youtube.com/channel/UCpb06fTkt2lx5qjEIocmZCg)
 
