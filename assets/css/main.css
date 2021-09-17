@@ -38,6 +38,7 @@ h3 {
 
 }
 
+/*.......................code smippets from https://stackoverflow.com/questions/55126972/how-to-centre-center-html-audio-player-to-middle-of-webpage
 .audio-container {
         display: flex;
         justify-content: center;
@@ -217,7 +218,7 @@ a:active {
                 background: transparent;
                 perspective: 1200px;
                 float: left;
-                margin-right: 1px;
+                margin-right: auto;
                 margin-top: 6px;
         }
 
