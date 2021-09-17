@@ -127,7 +127,10 @@ a:active {
         color: black;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
+
+/*.......................................media screen */
+
 @media screen and (max-width: 800px) {
         .container {
                 display: flex;
@@ -143,7 +146,7 @@ a:active {
                 background: transparent;
                 perspective: 1200px;
                 float: left;
-                margin-right: 6px;
+                margin-right: 4px;
                 margin-top: 6px;
         }
 
@@ -192,7 +195,8 @@ a:active {
 
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+
 @media screen and (max-width: 667px) {
         .container {
                 max-width: 100%;
