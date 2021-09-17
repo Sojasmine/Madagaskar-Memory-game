@@ -14,7 +14,9 @@ html {
 }
 
 /*............................. body*/
-body {
+body {  
+        margin: 0;
+        padding: 0;
         background: url('../images/foliage1.png') no-repeat center center fixed;
         background-size: cover;
         cursor: url('../cursor/cursor.png'), auto;
@@ -33,6 +35,11 @@ h3 {
         
 }
 
+.audio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center 
+      }
 /*....................... Game container*/
 
 #container {
