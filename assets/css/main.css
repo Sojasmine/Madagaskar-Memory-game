@@ -1,20 +1,22 @@
-
 /*............................. Font-face*/
 
 @font-face {
         font-family: "Horn";
         src: url("../font/Horn-pymD.ttf") format("truetype");
 }
+
 html {
         box-sizing: border-box;
 }
 
-*, *:before, *:after {
- box-sizing: inherit;
+*,
+*:before,
+*:after {
+        box-sizing: inherit;
 }
 
 /*............................. body*/
-body {  
+body {
         margin: 0;
         padding: 0;
         background: url('../images/foliage1.png') no-repeat center center fixed;
@@ -24,29 +26,31 @@ body {
 
 /*....................... Score panel*/
 h3 {
+        font-family: Ma Shan Zheng;
         text-align: center;
         font-size: 2em;
         color: #fff;
 }
 
-#score, 
+#score,
 #time {
-        color:#ff0066;
-        
+        color: #ff0066;
+
 }
 
 .audio-container {
         display: flex;
         justify-content: center;
-        align-items: center 
-      }
+        align-items: center
+}
+
 /*....................... Game container*/
 
 #container {
         display: flex;
         flex-wrap: wrap;
-      }
-       
+}
+
 
 .memory-game {
         position: relative;
@@ -104,6 +108,7 @@ img {
         width: 100%;
         min-height: 100%;
 }
+
 /*-----------------------Play again and exit game links*/
 
 a:link,
@@ -123,137 +128,139 @@ a:active {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-.container {
+        .container {
                 display: flex;
                 flex-wrap: wrap;
-              }
-               
+        }
 
-.memory-game {
+
+        .memory-game {
                 height: 75px;
                 width: 90px;
-                margin:9px;
+                margin: 9px;
                 padding: 1px;
                 background: transparent;
                 perspective: 1200px;
                 float: left;
-                margin-right:0px 1px;
+                margin-right: 12px;
                 margin-top: 6px;
         }
 
-.memory-card {
-        position: relative;
-        height: 85px;
-        width: 100px;
-        transform-style: preserve-3d;
-        transition: all 0.75s ease;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: normal;
-        justify-content: normal;
-        align-items: normal;
-        border: 3mm ridge rgb(179, 255, 102);
-        border-radius: 25px;
-        box-shadow: 5px 5px;
+        .memory-card {
+                position: relative;
+                height: 85px;
+                width: 100px;
+                transform-style: preserve-3d;
+                transition: all 0.75s ease;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: normal;
+                justify-content: normal;
+                align-items: normal;
+                border: 3mm ridge rgb(179, 255, 102);
+                border-radius: 25px;
+                box-shadow: 5px 5px;
+        }
+
+
+        .front,
+        .back {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                border-radius: 2px;
+                backface-visibility: hidden;
+        }
+
+        .front {
+                background: url("../images/lemur7.jpg") no-repeat;
+                background-size: cover;
+
+        }
+
+        .back {
+                transform: rotateY(180deg);
+        }
+
+        img {
+                width: 1.0rem;
+                min-height: 1.0rem;
+        }
+
 }
 
-
-.front,
-.back {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        border-radius: 2px;
-        backface-visibility: hidden;
-}
-
-.front {
-        background: url("../images/lemur7.jpg") no-repeat;
-        background-size: cover;
-
-}
-
-.back {
-        transform: rotateY(180deg);
-}
-
-img {
-        width: 1.rem;
-        min-height: 1.rem;
-}
-
-}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 667px) {
-  .container {
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 22px;
-  }
+        .container {
+                max-width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 22px;
+        }
 }
 
 @media screen and (max-width: 375px) {
-  .container {
-    max-width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 26px;
-  }
-  .memory-game {
-        height: 75px;
-        width: 75px;
-        margin:9px;
-        padding: 1px;
-        background: transparent;
-        perspective: 1200px;
-        float: left;
-        margin-right:0px 1px;
-        margin-top: 6px;
-}
+        .container {
+                max-width: 50%;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 26px;
+        }
 
-.memory-card {
-position: relative;
-height: 85px;
-width: 90px;
-transform-style: preserve-3d;
-transition: all 0.75s ease;
-margin: auto;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-content: normal;
-justify-content: normal;
-align-items: normal;
-border: 3mm ridge rgb(179, 255, 102);
-border-radius: 25px;
-box-shadow: 5px 5px;
-}
+        .memory-game {
+                height: 75px;
+                width: 75px;
+                margin: 9px;
+                padding: 1px;
+                background: transparent;
+                perspective: 1200px;
+                float: left;
+                margin-right: 12px;
+                margin-top: 6px;
+        }
+
+        .memory-card {
+                position: relative;
+                height: 85px;
+                width: 90px;
+                transform-style: preserve-3d;
+                transition: all 0.75s ease;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: normal;
+                justify-content: normal;
+                align-items: normal;
+                border: 3mm ridge rgb(179, 255, 102);
+                border-radius: 25px;
+                box-shadow: 5px 5px;
+        }
 
 
-.front,
-.back {
-position: absolute;
-height: 100%;
-width: 100%;
-border-radius: 2px;
-backface-visibility: hidden;
-}
+        .front,
+        .back {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                border-radius: 2px;
+                backface-visibility: hidden;
+        }
 
-.front {
-background: url("../images/lemur7.jpg") no-repeat;
-background-size: cover;
+        .front {
+                background: url("../images/lemur7.jpg") no-repeat;
+                background-size: cover;
 
-}
+        }
 
-.back {
-transform: rotateY(180deg);
-}
+        .back {
+                transform: rotateY(180deg);
+        }
 
-img {
-width: 1.rem;
-min-height: 1.rem;
-}
+        img {
+                width: 1.0rem;
+                min-height: 1.0rem;
+        }
 }
