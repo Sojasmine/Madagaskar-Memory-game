@@ -131,13 +131,13 @@ ___
 #### Landing page
    * This website contains two pages. The landing page has a tropical background image, an image of lemurs in the centre of the page. The Title of the game is on the top of the page and gAme instructions modal under it. A play button under the image leads the player to the game page.
 
-   ![Landing Page](assest/docs/homepage.jpeg)
+   ![Landing Page](assets/docs/homepage.jpeg)
 
 #### How to play
    * By clicking on the text **How to play**, modal when clicked pops up and give the user a simple instruction on how the game is meant to play. The instruction is easy to read understand for every user. 
    * The game ends when all cards are matched. User can see their speed on the panel score. 
 
-   ![Game instructions](assets/docs/modal/jpeg)
+   ![Game instructions](assets/docs/modal.jpeg)
 
 #### Game page
    * Is the second page on the website. It is where the user plays the game. At top of the page, a score panel with a timer appear. 
