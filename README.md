@@ -10,9 +10,9 @@ Link to my [github pages](https://github.com/Sojasmine/Madagaskar-Memory-game).
 
 This project is only for educational purpose.
 
-This game is not mobile-friendly. It is optimised for , laptop, desktop and tablets screen only. The value of the image on the game changes belongs to the screen size.
+It is a flip card memory game cartoon based upon the movie called Madagascar". This game has been designed for the user of any ages. The value of the image on the game changes belongs to the screen size.
 
-![Screenshot](assets/docs/screen.jpg)
+![Screenshot](assets/docs/ami.jpg)
 
 ---
 
@@ -36,15 +36,15 @@ ___
    - [Strategy](#strategy)
    - [Scope](3scope)
    - [Colors](#colors)
+   - [Typography](#Typography)
 - [Features](#features)
    - [Landing page](#landing-page)
    - [How to play](#how-to-play)
    - [Game page](#game-page)
    - [Timer](#timer)
-   - [Score](#score)
    - [Features left to implement](#features-left-to-implement)
 - [Technolgies used](#technoligies-used)
-- [Testing]
+- [Testing](#Testing)
    - [Project goals stories](#project-goals-stories)
    - [User stories tests](#user-stories-tests)
    - [Bugs](#bugs)
@@ -76,16 +76,17 @@ ___
    * As a game player, I want to read a simple explanation about how to play this game.
    * As a game player, I hope that this game is funny to play and entertaining.
    * As a game player, I want to be able to play this game on a large screen.
+   * As a game player. I want to be able to play this game om my mobile phone. 
    * As a game player, I want to play this game anytime.
 
 #### Wireframes
    * I used [Balsamiq](https://balsamiq.com/) as an aid to visualize and design the website structure before starting the project development. 
 
 
-[desktop](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:cd9b9470-a3e9-43fd-8aed-9f7483e65b53)
+[Index.html](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:27c27fe8-5b7f-4574-b969-99d1d445beba)
 
 
-![tablet](assets/docs/tablet.png)
+[Game.html](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:3ed9cce8-05db-4bdb-85ef-05847b32ef74)
 
    
 
@@ -100,31 +101,21 @@ ___
    * I was also inspired by reading some of Code Institutes students Github repositories on the __pree-code-preview__ in slack.
 
 #### Colors
-   ###### Landing page: 
-   * page-title:  #ff3300;
+   
+   * The colour scheme was chosen to tie in with the tropical flower, bright vibrant colours were selected to stand out in contract to the background but not to distract the play from the game itself.
 
-   * background-color for headings: rosybrown;
+   * The start game buttons is bootstrap primary-danger color and for the modal I used primary success.
 
-   ###### Game page: 
-   * Html background-color: hsl(180, 100%, 90%);
+  I used [coolors](https://coolors.co/) for the palettes.
 
-   * Game container background-color: transparent;
-
-   * Memory card background-color:  rgb(255, 204, 255);
-
-   * Border color for card back: #32a1ce;
-
-   * Text-color in the border: #ffffff;
-
-   * Audio button color: rgb(184, 28, 150);
-
-   * Border color: #0000ff;
-
-   * Exit button color: #6666ff; 
-
-   * Heading color on the game page: #ff0066;
+  ![palette](assets/docs/Color-used.png)
+  
 
 
+#### Typography]
+
+Ma Shan Zheng was chosen as a font-family. Horn is used for the font face.
+The start game is bootstra
 
 [Back to Table of contents](#table-of-contents)
 
@@ -132,28 +123,55 @@ ___
 ### Features
 
 #### Landing page
-   * This website contains 2 pages. The landing page contains a tropical background image, an image of lemurs in the centre of the page. Title of the game on the top. Instruction about how to play and a play button that leads to the game page with text inside an image on it. 
+   * This website contains two pages. The landing page has a tropical background image, an image of lemurs in the centre of the page. The Title of the game is on the top of the page and gAme instructions modal under it. A play button under the image leads the player to the game page.
+
+   ![Landing Page](assest/docs/homepage.jpeg)
 
 #### How to play
    * By clicking on the text **How to play**, modal when clicked pops up and give the user a simple instruction on how the game is meant to play. The instruction is easy to read understand for every user. 
-   * The game ends when all cards are matched. User can see their speed on the panel score.  
+   * The game ends when all cards are matched. User can see their speed on the panel score. 
+
+   ![Game instructions](assets/docs/modal/jpeg)
 
 #### Game page
    * Is the second page on the website. It is where the user plays the game. At top of the page, a score panel with a timer appear. 
    * An mp3 music will be played in the background during the game if wishes. There are _play sound_ and -pause sound_ buttons for the audio.
    * In the centre of the page is the game container.
-   * User can leave the game y clicking the bottom _exit_
+   *  Users can leave the game by clicking the button _exit the game_ .
+   * User can continue playing by clicking the button _play again_.
+
+   ![Game page](assets/docs/gamepage.jpg)
 
 #### Timer 
-   * A timer measures the speed of the player. (It does not work correctly, the timer do not stop after matched cards).
+   * Score panel: 
+      * A timer measures the speed of the player. (It shows the time in seconds).
+      * This showing the number of matched pairs of cards.
 
-#### Score
-  * This showing the number of matched pairs of cards.
+   ![Timer](assets/docs/timer.jpg)
 
 #### Features left to implement
+
+   * The game contains 24 cards with cartoons images with bright border-radius colour. The Madagascar cartoon characters were chosen to add additional fun. All the images have the same size.  
+   * It showed five grids on the large screen, four on the medium and three on the small devices. 
+   * The front card has an image of a lemur that was applied as cover 
+
+   ![Front card](assets/docs/lemur.jpg)
+
+
+   * The tropical forest flower matches the animated images that represented the jungle. . 
+
+   The background photos used are: 
+
+   ![Homepage background](assest/images/jungle.jpg)
+
+
+
+   ![Game page background](assets/images7foliage1.png)
+
+
   ###### Adding difficulty levels: 
    *  To make the game fairer, I will add difficulty levels for the player.
-   * The player will have a game customize option such as: 
+   *  The player will have a game customize option such as: 
      * Create an account and choose an avatar.
      * Choose a username.
      * Multiple player games.
@@ -203,21 +221,45 @@ ___
 
 #### User stories tests
    * I want that it is easy to navigate and the website to look nice.  
-   > User can play by clicking on the *Let's play button*.  
+   > User can play by clicking on the *Click here to start*.  
+
+   ![Start button](assets/docs/start.jpg)
+
+
+
    > User can see that there are images and colourful  contents. 
    * As a game player, I want to test my brain memory with this game.
    > User can try to remember cards position by flipping and matching pair of cards around the cards board on the game page. 
    * As a game player, I want to read a simple explanation about how to play this game.
    > The user needs to understand the main goal of the game. The instructions are very easy and simple to understand.
+
+   ![Game instructions](assets/docs/instructions.jpg)
+
+
+
    * As a game player, I hope that this game is funny to play and entertaining.
    > User can find funny cartoon images. There are images both on the front and back of the cards. 
+
+   ![Flip](assets/docs/flip.jpg)
+
+
+
    * As a game player, I want to be able to play this game on a large screen.
-   > User can play this game on any desktop and IpadPro screen.
+   > User can play this game on any desktop and tablets screen.
+   
+   ![large screen](assets/docs/)
+
+   * As a game player. I want to be able to play this game om my mobile phone. 
+
+
+   ![Smal devices](assets/docs/)
+ 
    * As a game player, I want to play this game anytime.
    > User can come back and play this game again and again without login in. 
    > No need for registration, just click the button and start playing.
 
 #### Bugs
+
    *  Problem with cards shuffling. The math Random is not working. 
 
    ![Cards](assets/docs/Bild1.png)
@@ -231,20 +273,50 @@ ___
 
    > Solved it by adding a **/*jshint esversion: 6 */** comment in the top of my javscript file. 
 
+   * Problem with responsivness. The game was not mobile friendly, it is working fine on the desktop and tablets but not for mobile. 
+   > After many attempt to solve the problem, I asked for help from tutors. 
+   > I got a tips to wathc this [Youtube](https://www.youtube.com/watch?v=_-aDOAMmDHI) video. 
+   > I used those methods to figure out how **vw** , **rem** and **em** are working: 
+   
+   [Khaledkzy](https://khaledkzy.github.io/)
+
+
+   [Nekocalc](https://nekocalc.com/)
+
+
+
+   [Code Beautify](https://codebeautify.org/)
+
+
+
+   [W3 Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+
+
+   ![Responsivness](assets/docs/memory_game.jpg)
+
+
+   * Problem centring the audio tag
+   > I tried multiple code to force the audio to be in the center with no lack. I googled tips but it was hard to find. 
+
+   ![Audio](assests/docs/audio.jpg)
+
+
+
+   >Finally I found this solution from [Stackoverflow](https://stackoverflow.com/questions/55126972/how-to-centre-center-html-audio-player-to-middle-of-webpage) .
+
+   I choosed the attempt number nine on the page.
+
+
+   * Javascript error
+
         
-   ![Error](assets/docs/jshint.jpg)
-
-   > I was not able to fix the warnings. Unsolved.
+   ![Error](assets/docs/java.jpg)
 
 
-   * HTML validating error. 
-
-   ![error](assets/docs/html.png)
+   > I have no idea how to solve the warning. 
 
 
-   ![error](assets/docs/html1.png)
-
-   > I removed and fixed all errors. 
 
 #### Code validation
 
@@ -252,16 +324,27 @@ ___
 
    > Final result: No warning to show.
 
+   ![Error](assets/docs/error/jpg)
+
+
+
    * I used [Jigsaw](https://jigsaw.w3.org/css-validator/) to validate CSS code.
 
    > Final result: No warning to show.
 
+    ![Error](assets/docs/error/jpg)
+
+
    * I used [Jshint](https://jshint.com/) to validate Javscript.
 
-   > 4 warnings, not solved. 
+   > 1 warnings, not solved. 
 
-   * I used [Ami Responsive](http://ami.responsivedesign.is/) to controll responsiveness of the website. 
-   > 
+
+   * I used [Ami Responsive](http://ami.responsivedesign.is/) and [Google Responsive Web Design tester](https://chrome.google.com/webstore/search/responsive%20web%20design%20tester?hl=sv)to controll responsiveness of the website. 
+   
+
+
+
 
 #### Performance testing
    
@@ -407,7 +490,7 @@ ___
 
    [Website](https://sojasmine.github.io/Madagaskar-Memory-game/)
 
-   Maj © 2021
+   September © 2021
 
 
  
