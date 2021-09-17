@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Horn";
-    src: url("../font/Horn-pymD.ttf") format("truetype"); 
+    src: url("../font/Horn-pymD.ttf") format("truetype");
 }
 
 /*..................... body */
@@ -12,10 +12,10 @@ body {
     background: url('../images/jungle1.jpg') no-repeat center center fixed;
     background-size: cover;
     cursor: url('../cursor/cursor.png'), auto;
-       
+
 }
 
-/*....................headings */
+/*....................page title */
 .page-title {
     text-align: center;
     font-family: Horn, serif;
@@ -25,12 +25,12 @@ body {
 }
 
 
-/* Score panel*/
+/*.................. How to play button*/
 
 .btn-warning {
     font-family: Ma Shan Zheng;
     font-size: 1.2rem;
-    border: 3mm ridge rgb(179,255,102);
+    border: 3mm ridge rgb(179, 255, 102);
 
 }
 
@@ -41,22 +41,46 @@ body {
     height: auto;
 }
 
-.text-modal, h2 {
+/*.................. Game instructions modal*/
+.text-modal,
+h2 {
     font-family: 'Horn';
     font-size: 1.2rem;
     color: #ff0066;
 }
 
+/*.................. Image in the  middle of the page*/
 img {
     display: block;
     margin-right: auto;
     margin-left: auto;
     width: 50%;
-    padding: 0,5em;
-    
+    padding: 0, 5em;
+
 }
 
-/*-------------------Footer*/
+/*-------------------404 page/ code snippet from https://codepen.io/ThatGuySam/pen/CytDA*/
 
-
-
+.hit-the-floor {
+    color: #fff;
+    font-size: 12em;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 
+      0 1px 0 #ccc, 
+      0 2px 0 #c9c9c9, 
+      0 3px 0 #bbb, 
+      0 4px 0 #b9b9b9, 
+      0 5px 0 #aaa, 
+      0 6px 1px rgba(0,0,0,.1), 
+      0 0 5px rgba(0,0,0,.1), 
+      0 1px 3px rgba(0,0,0,.3), 
+      0 3px 5px rgba(0,0,0,.2), 
+      0 5px 10px rgba(0,0,0,.25), 
+      0 10px 10px rgba(0,0,0,.2), 
+      0 20px 20px rgba(0,0,0,.15);
+  }
+  
+  .hit-the-floor {
+    text-align: center;
+  }
